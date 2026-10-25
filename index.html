@@ -1,0 +1,2488 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+<script async="" src="https://www.clarity.ms/tag/xtuy1vy5n8"></script><script src="js/latest.js" data-utmify-prevent-xcod-sck="" data-utmify-prevent-subids="" async="" defer=""></script>
+<script>
+  window.pixelId = "69f2c8cf50d78704efcbe49c";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script><script async="" defer="" src="js/pixel.js"></script>
+<!-- Microsoft Clarity -->
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xtuy1vy5n8");
+</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="robots" content="index, max-snippet:-1, max-image-preview:large, max-video-preview:-1, follow">
+  <meta name="description" content="Biblioteca Astral Digital — Mais de 40 obras essenciais sobre tarot, alta magia, hermetismo e ocultismo, com acesso vitalício por apenas R$37.">
+  <title>Portal Astral Digital</title>
+  <link rel="canonical" href="https://biblioteca-astral.vercel.app/">
+  <link rel="icon" type="image/png" href="images/favicon-180.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Biblioteca Astral Digital">
+  <meta property="og:title" content="Biblioteca Astral Digital">
+  <meta property="og:description" content="Mais de 40 obras essenciais sobre tarot, alta magia, hermetismo e ocultismo. Acesso vitalício por apenas R$37.">
+  <meta property="og:url" content="https://biblioteca-astral.vercel.app/">
+  <meta property="og:image" content="images/og_default.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="pt_BR">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Biblioteca Astral Digital">
+  <meta name="twitter:description" content="Mais de 40 obras essenciais sobre tarot, alta magia, hermetismo e ocultismo. Acesso vitalício por apenas R$37.">
+  <meta name="twitter:image" content="images/og_default.png">
+  <script>
+    if ('scrollRestoration' in history) {
+      history.scrollRestoration = 'manual';
+    }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <!-- VSL do hero vem do YouTube -->
+  <link rel="preconnect" href="https://www.youtube.com">
+  <link rel="preconnect" href="https://i.ytimg.com">
+  <!-- Bebas Neue e a fonte do H1 (elemento LCP). Self-hosted + preload antes do CSS
+       para chegar cedo e encurtar a janela de swap que gerava CLS. -->
+  <link rel="preload" as="font" type="font/woff2" href="fonts/bebas-neue.woff2" crossorigin="">
+
+  <link rel="preload" as="image" href="images/vsl-poster.webp" type="image/webp" fetchpriority="high">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Inter:wght@300;400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+
+  <style>
+    /* Bebas Neue self-hosted (OFL) — subset latin, via @fontsource.
+       Same-origin + preload: chega antes do Google Fonts async e encurta o FOUT. */
+    @font-face {
+      font-family: 'Bebas Neue';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url('fonts/bebas-neue.woff2') format('woff2');
+    }
+
+    /* ══════════════════════════════════════
+       TOKENS — Synapse × Biblioteca Astral
+    ══════════════════════════════════════ */
+    :root {
+      --bg:        #030303;           /* vantablack */
+      --bg-2:      #050505;
+      --bg-3:      #080808;
+      --lime:      #ccff00;           /* accent primário (substitui violeta) */
+      --green:     #00ff41;           /* accent secundário (substitui cyan) */
+      --gold:      #FFD700;           /* status/ouro */
+      --lime-40:   rgba(204,255,0,.40);
+      --lime-20:   rgba(204,255,0,.20);
+      --lime-10:   rgba(204,255,0,.10);
+      --green-40:  rgba(0,255,65,.40);
+      --green-20:  rgba(0,255,65,.20);
+      --white:     #ffffff;
+      --n-100:     rgba(255,255,255,.92);
+      --n-300:     rgba(255,255,255,.65);
+      --n-400:     rgba(255,255,255,.45);
+      --n-500:     rgba(255,255,255,.30);
+      --white-10:  rgba(255,255,255,.10);
+      --white-5:   rgba(255,255,255,.05);
+      --glass:     rgba(10,10,10,.70);
+      --glass-2:   rgba(255,255,255,.02);
+      --border:    rgba(255,255,255,.08);
+
+      /* Synapse signature easings */
+      --ease:      cubic-bezier(0.23, 1, 0.32, 1);
+      --ease-soft: cubic-bezier(0.16, 1, 0.3, 1);
+
+      /* type stack */
+      --f-serif:   'Instrument Serif', 'Bebas Neue', serif;
+      --f-sans:    'Inter', system-ui, sans-serif;
+      --f-mono:    'JetBrains Mono', ui-monospace, monospace;
+      --f-display: 'Bebas Neue', 'Instrument Serif', sans-serif;
+      --f-editorial: 'Instrument Serif', Georgia, serif;
+      --f-title:   'Instrument Serif', serif;
+
+      /* aliases mantidos p/ compat com HTML */
+      --fh: var(--f-display);
+      --fb: var(--f-sans);
+    }
+
+    /* ══════════════════════════════════════
+       BASE
+    ══════════════════════════════════════ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--white);
+      font-family: var(--f-sans);
+      font-weight: 400;
+      font-feature-settings: "ss01", "cv11";
+      line-height: 1.6;
+      letter-spacing: -0.005em;
+      overflow-x: hidden;
+      position: relative;
+    }
+    ::selection { background: var(--lime); color: #000; }
+    img { display: block; max-width: 100%; }
+    a { text-decoration: none; color: inherit; }
+
+    /* film grain */
+    body::after {
+      content: '';
+      position: fixed; inset: 0; z-index: 9999;
+      pointer-events: none; opacity: .03;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+      background-size: 180px;
+      mix-blend-mode: overlay;
+    }
+
+    /* ambient floating orbs (Synapse signature) */
+    .orb {
+      position: fixed; border-radius: 50%;
+      pointer-events: none; z-index: 0;
+      will-change: transform;
+    }
+    .orb-a {
+      width: 780px; height: 780px;
+      background: radial-gradient(circle, var(--lime-40) 0%, transparent 65%);
+      filter: blur(110px); opacity: .55;
+      top: -280px; left: -180px;
+      animation: orbFloatA 14s var(--ease) infinite alternate;
+    }
+    .orb-b {
+      width: 640px; height: 640px;
+      background: radial-gradient(circle, var(--green-40) 0%, transparent 65%);
+      filter: blur(120px); opacity: .35;
+      bottom: -220px; right: -160px;
+      animation: orbFloatB 11s var(--ease) infinite alternate;
+    }
+    .orb-c {
+      width: 480px; height: 480px;
+      background: radial-gradient(circle, rgba(204,255,0,.22) 0%, transparent 65%);
+      filter: blur(90px); opacity: .5;
+      top: 38%; left: 58%;
+      animation: orbFloatC 9s var(--ease) infinite alternate;
+    }
+    @keyframes orbFloatA {
+      0%   { transform: translate3d(0,0,0) scale(1); }
+      100% { transform: translate3d(40px,-30px,0) scale(1.06); }
+    }
+    @keyframes orbFloatB {
+      0%   { transform: translate3d(0,0,0) scale(1); }
+      100% { transform: translate3d(-50px,-20px,0) scale(1.08); }
+    }
+    @keyframes orbFloatC {
+      0%   { transform: translate3d(0,0,0) scale(1); opacity: .35; }
+      100% { transform: translate3d(-30px,40px,0) scale(1.05); opacity: .55; }
+    }
+
+    /* partículas flutuantes */
+    .particles {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      overflow: hidden;
+      z-index: 0;
+    }
+    .particle {
+      position: absolute;
+      width: 3px;
+      height: 3px;
+      border-radius: 50%;
+      background: #ccff00;
+      box-shadow: 0 0 6px rgba(204,255,0,.45);
+      opacity: 0;
+      animation: particleFloat linear infinite;
+      will-change: transform, opacity;
+    }
+    @keyframes particleFloat {
+      0%   { transform: translate3d(0, 0, 0) scale(.6); opacity: 0; }
+      10%  { opacity: var(--p-op, .35); }
+      50%  { transform: translate3d(var(--p-x, 20px), -50vh, 0) scale(1); opacity: var(--p-op, .35); }
+      90%  { opacity: var(--p-op, .35); }
+      100% { transform: translate3d(calc(var(--p-x, 20px) * -1), -100vh, 0) scale(.6); opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .particle { animation: none; opacity: .15; }
+    }
+
+    /* ══════════════════════════════════════
+       LAYOUT
+    ══════════════════════════════════════ */
+    .wrap    { max-width: 1120px; margin: 0 auto; padding: 0 32px; position: relative; z-index: 2; }
+    .wrap-sm { max-width: 760px;  margin: 0 auto; padding: 0 32px; position: relative; z-index: 2; }
+    .wrap-xs { max-width: 580px;  margin: 0 auto; padding: 0 32px; position: relative; z-index: 2; }
+    section  { padding: 60px 0; position: relative; }
+
+    /* ══════════════════════════════════════
+       NAV PILL — glass floating
+    ══════════════════════════════════════ */
+    .nav-pill {
+      display: none;
+      border: 1px solid var(--white-10);
+      border-radius: 9999px;
+      box-shadow:
+        0 0 0 1px rgba(0,0,0,.4),
+        0 20px 60px rgba(0,0,0,.5),
+        inset 0 1px 0 rgba(255,255,255,.06);
+      opacity: 0;
+      animation: navIn .9s var(--ease) .2s forwards;
+    }
+    @keyframes navIn {
+      from { opacity: 0; transform: translate(-50%, -20px); }
+      to   { opacity: 1; transform: translate(-50%, 0); }
+    }
+    .nav-pill__brand {
+      display: flex; align-items: center; gap: 10px;
+      font-family: var(--f-serif);
+      font-size: 1.15rem;
+      letter-spacing: -.02em;
+      color: var(--white);
+    }
+    .nav-pill__brand-dot {
+      width: 16px; height: 16px; border-radius: 50%;
+      background: conic-gradient(from 0deg, var(--lime), var(--green), var(--lime));
+      box-shadow: 0 0 12px var(--lime-40);
+      animation: spin 6s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .nav-pill__links {
+      display: flex; gap: 22px;
+    }
+    .nav-pill__link {
+      font-size: .68rem; font-weight: 500;
+      letter-spacing: .18em; text-transform: uppercase;
+      color: var(--n-400);
+      transition: color .3s var(--ease);
+    }
+    .nav-pill__link:hover { color: var(--white); }
+    .nav-pill__cta {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: var(--white); color: #000;
+      padding: 8px 16px; border-radius: 9999px;
+      font-size: .72rem; font-weight: 600;
+      letter-spacing: .04em;
+      transition: transform .25s var(--ease), background .25s var(--ease);
+    }
+    .nav-pill__cta:hover { transform: translateY(-1px); background: var(--lime); }
+
+    @media (max-width: 680px) {
+      .nav-pill__links { display: none; }
+    }
+
+    /* ══════════════════════════════════════
+       SCROLL REVEAL — staggered Synapse entry
+    ══════════════════════════════════════ */
+    .sr {
+      opacity: 0;
+      transform: translateY(22px);
+      transition: opacity .85s var(--ease), transform .85s var(--ease);
+    }
+    .sr.in { opacity: 1; transform: none; }
+    /* O JS no fim do body ja marcava "#hero .sr" como .in de imediato, mas isso prendia
+       FCP/LCP a espera do script. O CSS garante o mesmo resultado no primeiro paint. */
+    #hero .sr { opacity: 1; transform: none; }
+    .sr-d1 { transition-delay: .15s; }
+    .sr-d2 { transition-delay: .30s; }
+    .sr-d3 { transition-delay: .45s; }
+    .sr-d4 { transition-delay: .60s; }
+    .sr-d5 { transition-delay: .75s; }
+
+    /* ══════════════════════════════════════
+       SHINY BORDER BUTTON (Synapse signature)
+    ══════════════════════════════════════ */
+    .btn {
+      position: relative; isolation: isolate;
+      display: inline-block;
+      padding: 1px;
+      border-radius: 9999px;
+      background: transparent;
+      overflow: hidden;
+      font-family: var(--f-sans);
+      font-size: .82rem; font-weight: 600;
+      letter-spacing: .06em; text-transform: uppercase;
+      color: #000;
+      cursor: pointer;
+      border: none;
+      transition: transform .3s var(--ease), filter .3s var(--ease);
+    }
+    .btn::before {
+      content: '';
+      position: absolute; inset: -150%;
+      background: conic-gradient(
+        from 0deg,
+        transparent 0%,
+        var(--lime) 38%,
+        var(--green) 50%,
+        var(--lime) 62%,
+        transparent 100%
+      );
+      animation: btnSpin 4s linear infinite;
+      z-index: -1;
+    }
+    .btn > span, .btn-inner {
+      position: relative; z-index: 1;
+      display: inline-flex; align-items: center; gap: 10px;
+      background: var(--bg);
+      color: var(--white);
+      padding: 15px 36px;
+      border-radius: 9999px;
+      transition: background .3s var(--ease), color .3s var(--ease);
+    }
+    /* fallback direct text */
+    .btn {
+      background: transparent;
+    }
+    .btn:hover { transform: translateY(-2px); filter: drop-shadow(0 0 18px var(--lime-40)); }
+    .btn:hover > span { background: var(--lime); color: #000; }
+    @keyframes btnSpin { to { transform: rotate(360deg); } }
+
+    /* fallback for .btn sem <span> — wrap automático via after? Melhor padronizar via JS no hero */
+    /* Para suportar "ACESSAR AGORA — R$37" direto dentro do .btn sem <span>, usamos padding
+       no próprio .btn e uma versão alternativa. Variante sólida: */
+    .btn--solid {
+      padding: 16px 40px;
+      background: var(--lime);
+      color: #000;
+      box-shadow: 0 0 30px var(--lime-20), 0 10px 32px rgba(0,0,0,.5);
+      overflow: hidden;
+    }
+    .btn--solid::before { display: none; }
+    .btn--solid::after {
+      content: '';
+      position: absolute; top: 0; left: -100%;
+      width: 60%; height: 100%;
+      background: linear-gradient(105deg, transparent, rgba(255,255,255,.55) 50%, transparent);
+      transition: left .7s var(--ease);
+      pointer-events: none;
+    }
+    .btn--solid:hover { transform: translateY(-2px); box-shadow: 0 0 46px var(--lime-40), 0 14px 40px rgba(0,0,0,.6); }
+    .btn--solid:hover::after { left: 160%; }
+    .btn--full { width: 100%; text-align: center; display: block; }
+
+    /* ══════════════════════════════════════
+       LABEL / META / KICKER
+    ══════════════════════════════════════ */
+    .label {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-family: var(--f-mono);
+      font-size: .68rem; font-weight: 500;
+      letter-spacing: .28em; text-transform: uppercase;
+      color: var(--lime);
+      padding: 6px 14px;
+      background: var(--lime-10);
+      border: 1px solid var(--lime-20);
+      border-radius: 9999px;
+    }
+    .label::before {
+      content: ''; width: 6px; height: 6px; border-radius: 50%;
+      background: var(--lime);
+      box-shadow: 0 0 8px var(--lime);
+      animation: pulseDot 2s ease-in-out infinite;
+    }
+    @keyframes pulseDot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50%      { opacity: .4; transform: scale(.7); }
+    }
+
+    /* ══════════════════════════════════════
+       HERO — Synapse editorial
+    ══════════════════════════════════════ */
+    #hero {
+      min-height: 100vh;
+      display: flex; align-items: center;
+      padding: 60px 0 60px;
+      position: relative; overflow: hidden;
+    }
+    #hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse 60% 50% at 50% 0%, var(--lime-40) 0%, transparent 55%),
+        radial-gradient(ellipse 40% 40% at 8% 60%, rgba(0,255,65,.18) 0%, transparent 60%);
+      opacity: .6;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .hero__inner {
+      display: grid;
+      grid-template-columns: 1fr 340px;
+      gap: 72px; align-items: center;
+    }
+
+    .hero__h1 {
+      font-family: var(--f-display);
+      font-size: clamp(3.4rem, 8.5vw, 6.4rem);
+      line-height: 1;
+      letter-spacing: -.02em;
+      color: var(--white);
+      margin-bottom: 32px;
+    }
+    .hero__h1 em {
+      font-style: normal;
+      display: block;
+    }
+    /* "Biblioteca" — serif editorial, ar de grimório antigo */
+    .hero__h1 .brand-bib {
+      font-family: var(--f-editorial);
+      font-style: italic;
+      font-weight: 600;
+      color: #f2ede0;
+      letter-spacing: -.005em;
+    }
+    /* "Astral" — serif monumental (Instrument Serif), caps, com o shimmer do site */
+    .hero__h1 .brand-ast {
+      font-family: var(--f-title);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .03em;
+      font-size: .84em;
+      background: linear-gradient(
+        90deg,
+        var(--lime) 0%,
+        #ffffff 40%,
+        #ffffff 60%,
+        var(--green) 100%
+      );
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: shimmer 6s linear infinite;
+    }
+    @keyframes shimmer {
+      0%   { background-position: 200% center; }
+      100% { background-position: -200% center; }
+    }
+    .hero__sub {
+      font-family: var(--f-sans);
+      font-size: 1.02rem;
+      color: var(--n-400);
+      max-width: 520px;
+      margin-bottom: 44px;
+      font-weight: 300;
+      line-height: 1.7;
+    }
+    .hero__sub strong { color: var(--n-100); font-weight: 500; }
+
+    .hero__social {
+      display: flex; align-items: center; gap: 16px;
+      margin-top: 28px;
+    }
+    .hero__avatares { display: flex; }
+    .hero__avatar {
+      width: 40px; height: 40px; border-radius: 50%;
+      border: 2px solid var(--bg);
+      outline: 1px solid var(--lime-40);
+      overflow: hidden; margin-left: -12px;
+      box-shadow: 0 0 14px rgba(204,255,0,.25);
+      transition: transform .3s var(--ease);
+    }
+    .hero__avatar:first-child { margin-left: 0; }
+    .hero__avatar:hover { transform: translateY(-3px) scale(1.08); }
+    .hero__avatar img { width: 100%; height: 100%; object-fit: cover; }
+    .hero__social-txt { font-size: .82rem; color: var(--n-400); font-family: var(--f-sans); }
+    .hero__social-txt strong { color: var(--white); font-weight: 600; }
+
+    /* ══════════════════════════════════════
+       COMPARATIVO — três caminhos
+    ══════════════════════════════════════ */
+    #comparativo { padding: 72px 0; }
+
+    .comp-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: clamp(6px, 1.2vw, 16px);
+      max-width: 1020px;
+      margin: 0 auto;
+    }
+    .comp-card {
+      position: relative;
+      aspect-ratio: 1;
+      display: flex; flex-direction: column;
+      background: rgba(255,255,255,.02);
+      border: 1px solid var(--white-5);
+      border-radius: clamp(10px, 1.6vw, 20px);
+      padding: clamp(11px, 2.1vw, 26px) clamp(9px, 1.8vw, 22px);
+      transition: transform .5s var(--ease), border-color .5s var(--ease), box-shadow .5s var(--ease);
+    }
+    .comp-card:hover { transform: translateY(-6px); border-color: var(--white-10); }
+    .comp-card--win {
+      background:
+        radial-gradient(120% 80% at 50% -10%, var(--lime-10) 0%, transparent 60%),
+        rgba(255,255,255,.03);
+      border-color: var(--lime-40);
+      box-shadow: 0 0 40px -14px var(--lime-40);
+    }
+    .comp-card--win:hover { border-color: var(--lime); box-shadow: 0 0 50px -12px var(--lime-40); }
+
+    .comp-card__sobre {
+      font-family: var(--f-mono);
+      font-size: clamp(.45rem, 1.05vw, .57rem); font-weight: 500;
+      letter-spacing: clamp(.1em, .4vw, .26em); text-transform: uppercase;
+      color: var(--n-500);
+      margin-bottom: clamp(5px, .8vw, 8px);
+    }
+    .comp-card--win .comp-card__sobre { color: var(--lime); }
+
+    .comp-card__titulo {
+      font-family: var(--f-display);
+      font-size: clamp(.8rem, 2.9vw, 1.5rem);
+      line-height: 1.05;
+      letter-spacing: .01em;
+      color: var(--white);
+      margin-bottom: clamp(9px, 1.5vw, 16px);
+      padding-bottom: clamp(8px, 1.4vw, 15px);
+      border-bottom: 1px solid var(--white-5);
+    }
+    .comp-card--win .comp-card__titulo { color: var(--white); border-bottom-color: var(--lime-20); }
+
+    .comp-lista { list-style: none; padding: 0; margin: 0; display: grid; gap: clamp(6px, 1.1vw, 11px); }
+    .comp-item {
+      display: flex; align-items: flex-start; gap: clamp(5px, 1vw, 10px);
+      font-family: var(--f-sans);
+      font-size: clamp(.55rem, 1.55vw, .8rem); font-weight: 300;
+      line-height: 1.4;
+      color: var(--n-100);
+      overflow-wrap: break-word;
+    }
+    .comp-item svg { flex: none; width: clamp(10px, 1.6vw, 15px); height: clamp(10px, 1.6vw, 15px); margin-top: 1px; }
+    .comp-item--nao svg { color: #ff4d4d; }
+    .comp-item--sim { color: var(--n-100); }
+    .comp-item--sim svg { color: var(--lime); filter: drop-shadow(0 0 4px var(--lime-40)); }
+    .comp-item strong { color: var(--white); font-weight: 600; }
+    .comp-card--win .comp-item strong { color: var(--lime); }
+
+    .comp-card__rodape {
+      margin-top: auto;
+      padding-top: clamp(10px, 1.6vw, 18px);
+      text-align: center;
+    }
+    .comp-card__rotulo {
+      display: block;
+      font-family: var(--f-mono);
+      font-size: clamp(.44rem, 1vw, .55rem); font-weight: 500;
+      letter-spacing: clamp(.09em, .4vw, .26em); text-transform: uppercase;
+      color: rgba(255,77,77,.75);
+      margin-bottom: clamp(4px, .7vw, 7px);
+    }
+    .comp-card__valor {
+      font-family: var(--f-display);
+      font-size: clamp(1rem, 3.1vw, 2rem); line-height: 1;
+      color: #ff4d4d;
+      text-shadow: 0 0 20px rgba(255,77,77,.35);
+    }
+    .comp-card--win .comp-card__rotulo { color: var(--n-400); }
+    .comp-card--win .comp-card__valor {
+      color: var(--lime);
+      text-shadow: 0 0 22px var(--lime-40);
+      font-size: clamp(1.25rem, 3.9vw, 2.5rem);
+    }
+
+    @media (max-width: 820px) {
+      #comparativo { padding: 48px 0; }
+      .comp-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+        max-width: 400px;
+      }
+      .comp-card { padding: 26px 24px; border-radius: 20px; }
+      .comp-card__sobre { font-size: .6rem; letter-spacing: .26em; margin-bottom: 8px; }
+      .comp-card__titulo { font-size: 1.6rem; margin-bottom: 16px; padding-bottom: 15px; }
+      .comp-lista { gap: 12px; }
+      .comp-item { font-size: .95rem; gap: 11px; line-height: 1.5; }
+      .comp-item svg { width: 17px; height: 17px; margin-top: 2px; }
+      .comp-card__rodape { padding-top: 20px; }
+      .comp-card__rotulo { font-size: .58rem; letter-spacing: .26em; margin-bottom: 7px; }
+      .comp-card__valor { font-size: 2.1rem; }
+      .comp-card--win .comp-card__valor { font-size: 2.6rem; }
+    }
+
+    /* ══════════════════════════════════════
+       MINI VSL — hero
+    ══════════════════════════════════════ */
+    .vsl {
+      position: relative;
+      width: 300px; max-width: 100%;
+      aspect-ratio: 9 / 16;
+      margin: 0 auto;
+      border-radius: 30px;
+      overflow: hidden;
+      background: #000;
+      border: 1px solid var(--white-10);
+      box-shadow:
+        0 60px 100px rgba(0,0,0,.7),
+        0 0 100px rgba(204,255,0,.10),
+        inset 0 1px 0 rgba(255,255,255,.06);
+      isolation: isolate;
+    }
+    .vsl__video {
+      display: block;
+      width: 100%; height: 100%;
+      border: 0;
+      background: #000 url("images/vsl-poster.webp") center / cover no-repeat;
+    }
+
+    /* camada de clique — vira botão de canto depois de ativar o som */
+    .vsl__toggle {
+      position: absolute; inset: 0;
+      display: flex; align-items: center; justify-content: center;
+      padding: 0;
+      background: radial-gradient(circle at 50% 50%, rgba(0,0,0,.58) 0%, rgba(0,0,0,.3) 46%, rgba(0,0,0,.1) 76%);
+      border: 0; cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      transition: background .45s var(--ease);
+    }
+    .vsl__toggle:focus-visible { outline: 2px solid var(--lime); outline-offset: -4px; }
+
+    .vsl__pill {
+      position: relative;
+      display: inline-flex; align-items: center; gap: 9px;
+      font-family: var(--f-mono);
+      font-size: .78rem; font-weight: 600;
+      letter-spacing: .14em; text-transform: uppercase;
+      color: var(--lime);
+      background: rgba(0,0,0,.72);
+      backdrop-filter: blur(10px);
+      border: 1px solid var(--lime-40);
+      border-radius: 999px;
+      padding: 16px 28px;
+      transition: border-color .3s var(--ease), background .3s var(--ease), transform .3s var(--ease);
+    }
+    .vsl__pill::after {
+      content: '';
+      position: absolute; inset: -1px;
+      border-radius: inherit;
+      border: 1px solid var(--lime);
+      animation: vslPulso 2.8s var(--ease) infinite;
+      pointer-events: none;
+    }
+    @keyframes vslPulso {
+      0%   { opacity: .75; transform: scale(1); }
+      65%  { opacity: 0;   transform: scale(1.16); }
+      100% { opacity: 0;   transform: scale(1.16); }
+    }
+    .vsl__toggle:hover .vsl__pill {
+      border-color: var(--lime);
+      background: rgba(0,0,0,.85);
+      transform: translateY(-2px);
+    }
+
+    .vsl__ico { width: 20px; height: 20px; flex: none; }
+    .vsl__ico--on, .vsl__ico--play { display: none; }
+    .vsl:not(.vsl--mudo) .vsl__ico--off { display: none; }
+    .vsl:not(.vsl--mudo) .vsl__ico--on  { display: block; }
+    .vsl--parado .vsl__ico--play { display: block; }
+    .vsl--parado .vsl__ico--off,
+    .vsl--parado .vsl__ico--on { display: none; }
+
+    /* estado ativo: só um botão discreto no canto */
+    .vsl--ativo .vsl__toggle {
+      inset: auto 12px 12px auto;
+      width: 42px; height: 42px;
+      padding: 0;
+      align-items: center;
+      background: none;
+      border-radius: 50%;
+    }
+    .vsl--ativo .vsl__rotulo { display: none; }
+    .vsl--ativo .vsl__pill {
+      width: 42px; height: 42px;
+      padding: 0; gap: 0;
+      justify-content: center;
+      background: rgba(0,0,0,.55);
+      border-color: var(--white-10);
+      color: var(--white);
+    }
+    .vsl--ativo .vsl__pill::after { display: none; }
+    .vsl--ativo.vsl--mudo .vsl__pill { color: var(--lime); border-color: var(--lime-40); }
+
+    .vsl__cta { text-align: center; margin-top: 22px; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .vsl__pill::after { animation: none; opacity: .45; }
+    }
+
+
+    /* linha divisória — Synapse hairline */
+    .divider {
+      width: 100%; height: 1px;
+      background: linear-gradient(90deg, transparent, var(--white-10) 30%, var(--white-10) 70%, transparent);
+      position: relative; z-index: 1;
+    }
+
+    /* ══════════════════════════════════════
+       SECTION TITLE — Synapse editorial serif
+    ══════════════════════════════════════ */
+    .sec-titulo {
+      font-family: var(--f-display);
+      font-size: clamp(2.4rem, 5.8vw, 4.6rem);
+      line-height: .95;
+      letter-spacing: -.02em;
+      margin-bottom: 14px;
+    }
+    .sec-titulo span {
+      font-family: var(--f-serif);
+      font-style: italic;
+      font-weight: 400;
+      background: linear-gradient(90deg, var(--lime), var(--green));
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .sec-sub {
+      font-family: var(--f-serif);
+      font-style: italic;
+      color: var(--n-400);
+      font-size: 1.05rem;
+      font-weight: 400;
+      margin-bottom: 64px;
+      letter-spacing: -.01em;
+    }
+
+    /* ══════════════════════════════════════
+       DENTRO DOS LIVROS — premium carousel
+    ══════════════════════════════════════ */
+    #livros { padding: 72px 0; }
+
+    .car-livros {
+      position: relative; max-width: 720px; margin: 0 auto;
+      padding: 28px;
+      overflow: hidden;
+      background: rgba(255,255,255,.02);
+      border: 1px solid var(--white-5);
+      border-radius: 32px;
+      backdrop-filter: blur(16px);
+    }
+    .car-livros__track { display: flex; transition: transform .7s var(--ease); will-change: transform; }
+    .car-livros__slide { flex: 0 0 100%; min-width: 0; padding: 0 48px; box-sizing: border-box; }
+    .car-livros__slide img {
+      width:100%;
+      border-radius:18px;
+      border:1px solid var(--white-10);
+      max-height:600px;
+      object-fit:contain;
+      box-shadow: 0 30px 80px rgba(0,0,0,.6), 0 0 40px var(--lime-10);
+    }
+    .car-livros__btn {
+      position:absolute;top:50%;transform:translateY(-50%);
+      background: var(--glass); backdrop-filter: blur(16px);
+      border: 1px solid var(--white-10);
+      border-radius:50%; width:46px;height:46px;
+      color: var(--white); cursor:pointer;
+      display:flex;align-items:center;justify-content:center;
+      transition: border-color .35s var(--ease), background .35s var(--ease), color .35s;
+      z-index: 3;
+    }
+    .car-livros__btn:hover { border-color: var(--lime-40); background: var(--lime-10); color: var(--lime); }
+    .car-livros__btn--p{left:14px;} .car-livros__btn--n{right:14px;}
+    .car-livros__dots { display:flex;justify-content:center;gap:8px;margin-top:28px; position: relative; z-index: 3; }
+    .car-livros__dot { width:8px;height:8px;border-radius:50%;border:none;cursor:pointer;background:var(--white-10);transition:background .3s,width .3s; }
+    .car-livros__dot.on { background:var(--lime);width:26px;border-radius:5px;box-shadow:0 0 10px var(--lime-40); }
+
+    /* ══════════════════════════════════════
+       TEMAS — chip cloud
+    ══════════════════════════════════════ */
+    #temas { padding: 72px 0; }
+    .temas-grid {
+      display: flex; flex-wrap: wrap; gap: 10px;
+      justify-content: center;
+      max-width: 720px; margin: 0 auto;
+    }
+    .tema {
+      font-family: var(--f-mono);
+      background: rgba(255,255,255,.02);
+      border: 1px solid var(--white-10);
+      border-radius: 9999px;
+      padding: 10px 18px;
+      font-size: .76rem; font-weight: 500;
+      letter-spacing: -.01em;
+      color: var(--n-300);
+      transition: border-color .3s var(--ease), background .3s var(--ease), color .3s, transform .3s;
+      cursor: default;
+    }
+    .tema:hover {
+      border-color: var(--lime-40);
+      background: var(--lime-10);
+      color: var(--lime);
+      transform: translateY(-2px);
+    }
+
+    /* ══════════════════════════════════════
+       PREÇO — Synapse premium box
+    ══════════════════════════════════════ */
+    #preco { padding: 72px 0; }
+
+    .preco__hero {
+      text-align: center;
+      margin-bottom: 56px;
+    }
+    .preco__hero-h {
+      font-family: var(--f-display);
+      font-size: clamp(3rem, 7.5vw, 6.4rem);
+      line-height: .92;
+      letter-spacing: -.025em;
+      margin-bottom: 16px;
+    }
+    .preco__hero-h span {
+      font-family: var(--f-serif);
+      font-style: italic;
+      font-weight: 400;
+      background: linear-gradient(90deg, var(--lime), #fff 50%, var(--green));
+      background-size: 200% auto;
+      -webkit-background-clip: text; background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: shimmer 6s linear infinite;
+    }
+    .preco__hero-sub {
+      font-family: var(--f-sans);
+      font-style: normal;
+      color: var(--n-400);
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.65;
+    }
+    .preco__hero-sub s { color: rgba(220,50,50,.7); }
+    .preco__hero-sub .preco-green { color: #00e64d; font-weight: 700; }
+
+    /* countdown */
+    .preco__countdown {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 14px;
+      background: rgba(204,255,0,.06);
+      border: 1px solid rgba(204,255,0,.18);
+      border-radius: 100px;
+      padding: 8px 20px;
+      font-family: var(--f-mono);
+      font-size: .78rem;
+      letter-spacing: .08em;
+      color: var(--lime);
+    }
+    .preco__countdown-label { color: var(--n-400); font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; }
+    .preco__countdown-time { font-weight: 500; font-size: .9rem; }
+
+    .preco__box {
+      position: relative;
+      background: rgba(10,10,10,.6);
+      border: 1px solid var(--white-10);
+      border-radius: 32px;
+      padding: 52px 44px;
+      max-width: 580px; margin: 0 auto;
+      text-align: center;
+      backdrop-filter: blur(20px);
+      box-shadow:
+        0 60px 120px rgba(0,0,0,.6),
+        0 0 60px var(--lime-10),
+        inset 0 1px 0 rgba(255,255,255,.06);
+      overflow: hidden;
+    }
+    .preco__box::before {
+      content: '';
+      position: absolute; top: 0; left: 50%;
+      transform: translateX(-50%);
+      width: 60%; height: 1px;
+      background: linear-gradient(90deg, transparent, var(--lime), transparent);
+    }
+
+    .preco__valor {
+      font-family: var(--f-display);
+      font-size: clamp(4rem, 10vw, 7rem);
+      background: linear-gradient(180deg, var(--lime), var(--green));
+      -webkit-background-clip: text; background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: .95;
+      letter-spacing: -.02em;
+      margin-bottom: 6px;
+    }
+    .preco__obs {
+      font-family: var(--f-mono);
+      font-size: .72rem;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--n-400);
+      margin-bottom: 36px;
+    }
+
+    .preco__feats { list-style: none; margin-bottom: 36px; text-align: left; }
+    .preco__feat {
+      display: flex; align-items: flex-start; gap: 14px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--white-5);
+      font-size: .92rem;
+      color: var(--n-100);
+      font-weight: 400;
+    }
+    .preco__feat:last-child { border-bottom: none; }
+    .preco__feat-txt { min-width: 0; }
+    .preco__feat-txt strong { color: var(--lime); font-weight: 600; }
+    .preco__feat-obs { color: var(--n-400); }
+    .preco__feat svg { color: var(--lime); flex-shrink: 0; margin-top: 3px; filter: drop-shadow(0 0 4px var(--lime-40)); }
+
+    .preco__urgencia {
+      font-family: var(--f-mono);
+      font-size: .72rem;
+      color: var(--lime);
+      margin-top: 20px;
+      font-weight: 500;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    /* bonus */
+    .bonus {
+      max-width: 580px; margin: 24px auto 0;
+      background: rgba(255,255,255,.02);
+      border: 1px solid var(--white-5);
+      border-radius: 24px;
+      padding: 36px 38px;
+      backdrop-filter: blur(12px);
+      transition: border-color .4s var(--ease);
+    }
+    .bonus:hover { border-color: var(--lime-40); }
+    .bonus__titulo {
+      font-family: var(--f-mono);
+      font-size: .66rem; font-weight: 500;
+      letter-spacing: .3em; text-transform: uppercase;
+      color: var(--lime);
+      margin-bottom: 14px;
+    }
+    .bonus__sub {
+      font-family: var(--f-sans);
+      font-style: normal;
+      font-weight: 600;
+      margin-bottom: 6px;
+      font-size: 1.25rem;
+      line-height: 1.35;
+      color: var(--white);
+    }
+    .bonus__sub span { color: var(--lime); }
+    .bonus__desc { font-size: .95rem; color: var(--n-300); font-weight: 400; line-height: 1.6; margin-bottom: 20px; }
+    .bonus__riscado {
+      font-family: var(--f-sans);
+      font-size: .88rem;
+      font-weight: 400;
+      color: rgba(220,50,50,.7);
+      text-decoration: line-through;
+      margin-top: 0;
+    }
+
+    /* ── bônus 02: egrégora / comunidade ── */
+    .bonus + .bonus { margin-top: 20px; }
+
+    .bonus--egregora {
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(130% 95% at 88% -12%, var(--lime-10) 0%, transparent 58%),
+        rgba(255,255,255,.02);
+    }
+
+    .bonus__head {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 18px; margin-bottom: 20px;
+    }
+    .bonus__badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-family: var(--f-mono);
+      font-size: .62rem; font-weight: 500;
+      letter-spacing: .28em; text-transform: uppercase;
+      color: var(--lime);
+      background: var(--lime-10);
+      border: 1px solid var(--lime-40);
+      border-radius: 999px;
+      padding: 7px 15px 7px 12px;
+      white-space: nowrap;
+    }
+    .bonus__badge::before {
+      content: '';
+      width: 5px; height: 5px; border-radius: 50%;
+      background: var(--lime);
+      box-shadow: 0 0 8px var(--lime);
+      animation: egPulse 2.4s ease-in-out infinite;
+    }
+    @keyframes egPulse { 0%, 100% { opacity: 1; } 50% { opacity: .2; } }
+
+    /* glifo de rede — conexão entre membros */
+    .eg-glifo { flex: none; width: 84px; height: 46px; }
+    .eg-glifo line   { stroke: var(--lime-40); stroke-width: 1; }
+    .eg-glifo circle { fill: var(--lime); }
+    .eg-glifo .eg-anel {
+      fill: none; stroke: var(--lime-20); stroke-width: 1;
+    }
+    .eg-glifo .eg-hub { filter: drop-shadow(0 0 6px var(--lime)); }
+    .eg-glifo .eg-sat { opacity: .5; animation: egSat 3.6s ease-in-out infinite; }
+    @keyframes egSat { 0%, 100% { opacity: .28; } 50% { opacity: 1; } }
+
+    .bonus__sub--eg { font-size: 1.5rem; margin-bottom: 12px; }
+
+    .bonus__meta {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-family: var(--f-mono);
+      font-size: .68rem; font-weight: 500;
+      letter-spacing: .16em; text-transform: uppercase;
+      color: var(--n-400);
+      margin-bottom: 24px;
+    }
+    .bonus__meta svg { width: 14px; height: 14px; color: var(--green); flex: none; }
+
+    .bonus__p {
+      font-family: var(--f-sans);
+      font-size: .95rem; font-weight: 300;
+      line-height: 1.72;
+      color: var(--n-300);
+      margin-bottom: 16px;
+    }
+    .bonus__p:last-of-type { margin-bottom: 0; }
+    .bonus__p strong { color: var(--n-100); font-weight: 500; }
+
+    .bonus__corte {
+      font-family: var(--f-editorial);
+      font-style: italic;
+      font-size: 1.5rem;
+      line-height: 1.25;
+      color: var(--lime);
+      margin: 22px 0;
+      padding-left: 16px;
+      border-left: 2px solid var(--lime-40);
+    }
+
+    .bonus__label {
+      font-family: var(--f-mono);
+      font-size: .63rem; font-weight: 500;
+      letter-spacing: .26em; text-transform: uppercase;
+      color: var(--n-400);
+      margin: 28px 0 14px;
+    }
+    .bonus__lista {
+      list-style: none; padding: 0;
+      margin: 0 0 26px;
+      display: grid; gap: 10px;
+    }
+    .bonus__item {
+      display: flex; align-items: flex-start; gap: 12px;
+      font-family: var(--f-sans);
+      font-size: .92rem; font-weight: 300; line-height: 1.55;
+      color: var(--n-300);
+      background: rgba(255,255,255,.02);
+      border: 1px solid var(--white-5);
+      border-radius: 12px;
+      padding: 13px 15px;
+      transition: border-color .4s var(--ease), background .4s var(--ease), transform .4s var(--ease);
+    }
+    .bonus__item:hover {
+      border-color: var(--lime-40);
+      background: rgba(255,255,255,.035);
+      transform: translateX(3px);
+    }
+    .bonus__item strong { color: var(--white); font-weight: 500; }
+    .bonus__item svg { flex: none; width: 17px; height: 17px; color: var(--lime); margin-top: 2px; }
+
+    .bonus__fecho {
+      font-family: var(--f-editorial);
+      font-size: 1.3rem; line-height: 1.35;
+      color: var(--white);
+      border-top: 1px solid var(--white-5);
+      padding-top: 22px;
+    }
+    .bonus__fecho span { color: var(--lime); font-style: italic; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .bonus__badge::before, .eg-glifo .eg-sat { animation: none; }
+      .eg-glifo .eg-sat { opacity: .6; }
+    }
+
+    /* chat widget dentro do bônus */
+    /* ── chat window ── */
+    .bonus__chat-wrap { margin-top: 24px; }
+
+    .bonus__chat {
+      position: relative;
+      background: rgba(0,0,0,.4);
+      border: 1px solid rgba(255,255,255,.07);
+      border-radius: 18px;
+      height: 168px;
+      overflow: hidden;
+      /* fade no topo para mensagens antigas desaparecerem suavemente */
+      -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 22%);
+      mask-image: linear-gradient(to bottom, transparent 0%, black 22%);
+    }
+
+    /* track interno — ancorado no fundo, cresce para cima */
+    .chat-track {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      padding: 14px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+
+    .chat-msg {
+      display: flex;
+      flex-direction: column;
+      max-width: 84%;
+      flex-shrink: 0;
+      opacity: 0;
+      transform: translateY(10px);
+      transition: opacity .38s ease, transform .42s cubic-bezier(0.16,1,0.3,1);
+    }
+    .chat-msg.in { opacity: 1; transform: translateY(0); }
+    .chat-msg--client { align-self: flex-end; align-items: flex-end; }
+    .chat-msg--support { align-self: flex-start; align-items: flex-start; }
+
+    .chat-bubble {
+      border-radius: 14px;
+      padding: 8px 13px;
+      font-size: .84rem;
+      line-height: 1.5;
+      font-family: var(--f-sans);
+      font-weight: 400;
+    }
+    .chat-msg--client .chat-bubble {
+      background: rgba(204,255,0,.14);
+      border: 1px solid rgba(204,255,0,.22);
+      color: var(--n-100);
+      border-bottom-right-radius: 3px;
+    }
+    .chat-msg--support .chat-bubble {
+      background: rgba(255,255,255,.055);
+      border: 1px solid rgba(255,255,255,.07);
+      color: var(--n-300);
+      border-bottom-left-radius: 3px;
+    }
+    .chat-name {
+      font-size: .6rem;
+      color: var(--n-500);
+      font-family: var(--f-mono);
+      letter-spacing: .07em;
+      margin-bottom: 3px;
+    }
+    .chat-typing {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 8px 13px;
+      background: rgba(255,255,255,.055);
+      border: 1px solid rgba(255,255,255,.07);
+      border-radius: 14px;
+      border-bottom-left-radius: 3px;
+    }
+    .chat-typing span {
+      width: 5px; height: 5px; border-radius: 50%;
+      background: var(--n-400);
+      animation: tdot .85s infinite;
+    }
+    .chat-typing span:nth-child(2) { animation-delay: .17s; }
+    .chat-typing span:nth-child(3) { animation-delay: .34s; }
+    @keyframes tdot {
+      0%,60%,100% { opacity: .25; transform: translateY(0); }
+      30%          { opacity: 1;   transform: translateY(-3px); }
+    }
+
+    /* ══════════════════════════════════════
+       DEPOIMENTOS
+    ══════════════════════════════════════ */
+    #depoimentos { padding: 72px 0; }
+
+    .dep-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; max-width: 1020px; margin: 0 auto; }
+    .dep-card {
+      position: relative;
+      background: rgba(255,255,255,.02);
+      border: 1px solid var(--white-5);
+      border-radius: 18px;
+      padding: 22px 20px;
+      transition: transform .5s var(--ease), border-color .5s var(--ease), box-shadow .5s var(--ease);
+      overflow: hidden;
+    }
+    .dep-card::before {
+      content: '"';
+      position: absolute; top: 6px; right: 18px;
+      font-family: var(--f-serif);
+      font-size: 4.4rem;
+      line-height: 1;
+      color: var(--lime-10);
+      pointer-events: none;
+    }
+    .dep-card:hover {
+      transform: translateY(-6px);
+      border-color: var(--lime-40);
+      box-shadow: 0 0 30px -10px var(--lime-40);
+    }
+    .estrelas { display: flex; gap: 2px; margin-bottom: 12px; }
+    .estrelas svg { color: var(--lime); fill: var(--lime); width: 12px; height: 12px; filter: drop-shadow(0 0 3px var(--lime-40)); }
+    .dep-autor { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+    .dep-autor img {
+      width: 36px; height: 36px; border-radius: 50%;
+      object-fit: cover;
+      border: 1px solid var(--bg);
+      outline: 1px solid var(--lime-40);
+    }
+    .dep-autor__nome { font-size: .81rem; font-weight: 600; color: var(--white); letter-spacing: -.01em; }
+    .dep-autor__local {
+      font-family: var(--f-mono);
+      font-size: .59rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--n-400);
+    }
+    .dep-card__txt {
+      font-family: var(--f-sans);
+      font-style: normal;
+      font-size: .83rem;
+      color: var(--n-100);
+      line-height: 1.55;
+      font-weight: 400;
+      letter-spacing: -.01em;
+    }
+    .dep-card__print {
+      display: block;
+      width: 100%; height: auto;
+      border-radius: 12px;
+      border: 1px solid var(--white-5);
+    }
+
+    /* ══════════════════════════════════════
+       CTA FINAL
+    ══════════════════════════════════════ */
+    #cta-final { padding: 72px 0; text-align: center; position: relative; }
+    #cta-final::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse 50% 50% at 50% 50%, var(--lime-10) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .cta-final__logo {
+      width: 110px; height: 110px; object-fit: contain;
+      margin: 0 auto 36px;
+      filter: drop-shadow(0 0 30px var(--lime-40));
+      animation: logoFloat 5s ease-in-out infinite alternate;
+    }
+    @keyframes logoFloat {
+      0%   { transform: translateY(0); }
+      100% { transform: translateY(-10px); }
+    }
+
+    .cta-final__h {
+      font-family: var(--f-display);
+      font-size: clamp(2.4rem, 6vw, 4.8rem);
+      line-height: .95;
+      letter-spacing: -.02em;
+      margin-bottom: 18px;
+    }
+    .cta-final__h span {
+      font-family: var(--f-serif);
+      font-style: italic;
+      font-weight: 400;
+      background: linear-gradient(90deg, var(--lime), var(--green));
+      -webkit-background-clip: text; background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .cta-final__sub {
+      font-family: var(--f-serif);
+      font-style: italic;
+      color: var(--n-300);
+      font-size: 1.1rem;
+      font-weight: 400;
+      margin-bottom: 44px;
+    }
+
+    .selos {
+      display: flex; flex-wrap: wrap; justify-content: center;
+      gap: 28px; margin-top: 44px;
+    }
+    .selo {
+      display: flex; align-items: center; gap: 8px;
+      font-family: var(--f-mono);
+      font-size: .7rem; letter-spacing: .14em; text-transform: uppercase;
+      color: var(--n-400);
+    }
+    .selo svg { color: var(--lime); }
+
+    /* ══════════════════════════════════════
+       FAQ
+    ══════════════════════════════════════ */
+    #faq { padding: 72px 0; }
+
+    .faq-lista { max-width: 720px; margin: 0 auto; }
+    .faq-item {
+      border: 1px solid var(--white-5);
+      border-radius: 16px;
+      margin-bottom: 10px;
+      background: rgba(255,255,255,.02);
+      transition: border-color .35s var(--ease), background .35s var(--ease);
+      overflow: hidden;
+    }
+    .faq-item:hover { border-color: var(--lime-20); }
+    .faq-item.open { border-color: var(--lime-40); background: rgba(204,255,0,.03); }
+    .faq-q {
+      width: 100%; display: flex; align-items: center; justify-content: space-between;
+      text-align: left; background: none; border: none; cursor: pointer;
+      padding: 22px 24px; color: var(--white);
+      font-family: var(--f-sans); font-size: .95rem; font-weight: 500;
+      letter-spacing: -.01em;
+      gap: 14px;
+    }
+    .faq-q svg {
+      flex-shrink: 0; color: var(--lime);
+      transition: transform .45s var(--ease);
+    }
+    .faq-item.open .faq-q svg { transform: rotate(180deg); }
+    .faq-r {
+      max-height: 0; overflow: hidden;
+      padding: 0 24px;
+      transition: max-height .55s var(--ease), padding .35s var(--ease);
+      color: var(--n-400);
+      font-size: .9rem;
+      line-height: 1.7;
+      font-weight: 300;
+    }
+    .faq-item.open .faq-r { max-height: 400px; padding: 0 24px 24px; }
+
+    /* ══════════════════════════════════════
+       FOOTER — 4-col with status dot
+    ══════════════════════════════════════ */
+    footer {
+      padding: 80px 0 32px;
+      background: #050505;
+      border-top: 1px solid var(--white-5);
+      position: relative; z-index: 2;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr 1fr 1fr;
+      gap: 48px;
+      margin-bottom: 56px;
+    }
+    .footer__brand-logo {
+      font-family: var(--f-serif);
+      font-size: 2rem; font-weight: 400;
+      letter-spacing: -.02em;
+      color: var(--white);
+      margin-bottom: 14px;
+    }
+    .footer__brand-desc {
+      font-family: var(--f-serif);
+      font-style: italic;
+      font-size: .95rem;
+      color: var(--n-400);
+      line-height: 1.5;
+      max-width: 280px;
+    }
+    .footer__col h5 {
+      font-family: var(--f-mono);
+      font-size: .65rem; font-weight: 500;
+      letter-spacing: .28em; text-transform: uppercase;
+      color: var(--n-500);
+      margin-bottom: 18px;
+    }
+    .footer__col ul { list-style: none; }
+    .footer__col li {
+      font-size: .88rem;
+      color: var(--n-300);
+      margin-bottom: 10px;
+      transition: color .25s var(--ease);
+      cursor: default;
+    }
+    .footer__col li:hover { color: var(--white); }
+    .footer__bar {
+      display: flex; align-items: center; justify-content: space-between;
+      padding-top: 24px;
+      border-top: 1px solid var(--white-5);
+      font-family: var(--f-mono);
+      font-size: .72rem;
+      letter-spacing: .08em;
+      color: var(--n-500);
+    }
+    .footer__status {
+      display: inline-flex; align-items: center; gap: 8px;
+      color: var(--green);
+    }
+    .footer__status-dot {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 10px var(--green-40);
+      animation: pulseDot 2s ease-in-out infinite;
+    }
+
+    /* ══════════════════════════════════════
+       RESPONSIVO
+    ══════════════════════════════════════ */
+    @media (max-width: 900px) {
+      .footer-grid { grid-template-columns: 1fr 1fr; gap: 40px 32px; }
+    }
+    @media (max-width: 768px) {
+      section { padding: 48px 0; }
+      #hero { padding-top: 40px; padding-bottom: 40px; }
+      .hero__inner { grid-template-columns: 1fr; gap: 36px; }
+      .preco__box { padding: 38px 26px; }
+      .bonus { padding: 24px 22px; }
+      .car-livros { padding: 18px; border-radius: 24px; }
+      .car-livros__slide { padding: 0 38px; }
+      .footer-grid { grid-template-columns: 1fr; gap: 36px; margin-bottom: 40px; }
+      .footer__bar { flex-direction: column; gap: 12px; text-align: center; }
+      /* Aumentar fontes para mobile */
+      .hero__sub { font-size: 1.1rem; }
+      .sec-titulo { font-size: clamp(2.8rem, 8vw, 4.6rem); }
+      .sec-sub { font-size: 1.15rem; }
+      .dep-grid { grid-template-columns: 1fr; max-width: 560px; }
+      .dep-card__txt { font-size: .95rem; }
+      .dep-autor__nome { font-size: .9rem; }
+      .preco__feat { font-size: 1rem; }
+      .tema { font-size: .9rem; }
+      .faq-q { font-size: 1.05rem; }
+      .faq-a { font-size: 1rem; }
+      .bonus__sub { font-size: 1.05rem; }
+      .hero__social-txt { font-size: .95rem; }
+      .bonus__head { flex-direction: column; align-items: flex-start; gap: 14px; }
+      .bonus__sub--eg { font-size: 1.3rem; }
+      .bonus__p { font-size: 1rem; }
+      .bonus__item { font-size: .98rem; }
+      .bonus__corte { font-size: 1.35rem; }
+      .bonus__fecho { font-size: 1.16rem; }
+      #livros { padding: 48px 0; }
+      #temas { padding: 48px 0; }
+      #preco { padding: 48px 0; }
+      #depoimentos { padding: 48px 0; }
+      #cta-final { padding: 48px 0; }
+      #faq { padding: 48px 0; }
+    }
+    @media (max-width: 480px) {
+      .wrap, .wrap-sm, .wrap-xs { padding: 0 20px; }
+      .car-livros__btn--p { left: 4px; }
+      .car-livros__btn--n { right: 4px; }
+      .car-livros__slide { padding: 0 26px; }
+      .btn > span { padding: 15px 30px; font-size: .92rem; }
+      .btn--solid { padding: 15px 30px; font-size: .92rem; }
+    }
+
+    /* ══════════════════════════════════════
+       ESTEIRA DE CAPAS (marquee)
+    ══════════════════════════════════════ */
+    .esteira {
+      padding: 64px 0; overflow: hidden;
+      content-visibility: auto;
+      contain-intrinsic-size: 0 320px;
+    }
+    .esteira__frase {
+      text-align: center;
+      font-family: var(--f-serif);
+      font-style: italic;
+      font-size: 1.2rem;
+      line-height: 1.35;
+      color: rgba(255,255,255,.72);
+      margin: 0 auto 40px;
+      padding: 0 20px;
+    }
+    .esteira__rows {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    .esteira__fade {
+      position: absolute; top: 0; bottom: 0;
+      width: 64px; z-index: 10;
+      pointer-events: none;
+    }
+    .esteira__fade--l { left: 0;  background: linear-gradient(to right, var(--bg), transparent); }
+    .esteira__fade--r { right: 0; background: linear-gradient(to left,  var(--bg), transparent); }
+    .esteira__track {
+      display: flex;
+      width: max-content;
+      will-change: transform;
+    }
+    .esteira__track--l { animation: esteiraLeft  50s linear infinite; }
+    .esteira__track--r { animation: esteiraRight 25s linear infinite; }
+    .esteira__group { display: flex; gap: 32px; padding: 0 16px; }
+    .esteira__cover {
+      height: 165px; width: auto; aspect-ratio: 2 / 3; object-fit: cover; flex-shrink: 0;
+      border-radius: 6px;
+      border: 1px solid var(--white-10);
+      box-shadow: 0 10px 25px rgba(0,0,0,.5);
+    }
+    @keyframes esteiraLeft  { from { transform: translateX(0); }     to { transform: translateX(-50%); } }
+    @keyframes esteiraRight { from { transform: translateX(-50%); }  to { transform: translateX(0); } }
+    @media (min-width: 640px) {
+      .esteira__frase { font-size: 1.35rem; }
+      .esteira__fade  { width: 128px; }
+      .esteira__group { gap: 48px; padding: 0 24px; }
+      .esteira__cover { height: 190px; }
+    }
+    @media (min-width: 768px) {
+      .esteira__cover { height: 210px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .esteira__track--l, .esteira__track--r { animation: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ════════════════════════════════════════
+     AMBIENT LAYERS
+════════════════════════════════════════ -->
+<div class="orb orb-a"></div>
+<div class="orb orb-b"></div>
+<div class="orb orb-c"></div>
+<div class="particles" id="particles" aria-hidden="true" style="height: 11800px;"><span class="particle" style="left: 40.38%; top: 55.89%; width: 2.2px; height: 2.2px; animation-duration: 26.87s; animation-delay: -10.31s; --p-x: 23.2px; --p-op: 0.32;"></span><span class="particle" style="left: 32.9%; top: 45.38%; width: 2.62px; height: 2.62px; animation-duration: 22.37s; animation-delay: -7.77s; --p-x: 1.5px; --p-op: 0.27;"></span><span class="particle" style="left: 58.1%; top: 91.91%; width: 2.55px; height: 2.55px; animation-duration: 24.86s; animation-delay: -8.79s; --p-x: -16.0px; --p-op: 0.31;"></span><span class="particle" style="left: 93.7%; top: 76.25%; width: 1.48px; height: 1.48px; animation-duration: 21.42s; animation-delay: -2.34s; --p-x: 3.1px; --p-op: 0.16;"></span><span class="particle" style="left: 2.77%; top: 89.65%; width: 3.24px; height: 3.24px; animation-duration: 26.25s; animation-delay: -27.13s; --p-x: -13.5px; --p-op: 0.28;"></span><span class="particle" style="left: 54.59%; top: 36.02%; width: 2.98px; height: 2.98px; animation-duration: 24.5s; animation-delay: -3.29s; --p-x: -32.1px; --p-op: 0.34;"></span><span class="particle" style="left: 85.06%; top: 61.74%; width: 2.24px; height: 2.24px; animation-duration: 20.14s; animation-delay: -9.23s; --p-x: -20.5px; --p-op: 0.39;"></span><span class="particle" style="left: 79.32%; top: 8.5%; width: 2.55px; height: 2.55px; animation-duration: 23.01s; animation-delay: -28.99s; --p-x: 26.2px; --p-op: 0.27;"></span><span class="particle" style="left: 51.44%; top: 66.47%; width: 2.56px; height: 2.56px; animation-duration: 22.73s; animation-delay: -16.11s; --p-x: -8.7px; --p-op: 0.30;"></span><span class="particle" style="left: 16.51%; top: 2.12%; width: 1.99px; height: 1.99px; animation-duration: 27.73s; animation-delay: -7.52s; --p-x: 32.6px; --p-op: 0.28;"></span><span class="particle" style="left: 82.19%; top: 19.89%; width: 3.01px; height: 3.01px; animation-duration: 22.12s; animation-delay: -15.37s; --p-x: 15.2px; --p-op: 0.24;"></span><span class="particle" style="left: 95.83%; top: 33.19%; width: 3.16px; height: 3.16px; animation-duration: 29.8s; animation-delay: -26.17s; --p-x: 1.2px; --p-op: 0.32;"></span><span class="particle" style="left: 80.25%; top: 24.36%; width: 1.45px; height: 1.45px; animation-duration: 19.92s; animation-delay: -10.02s; --p-x: -31.3px; --p-op: 0.39;"></span><span class="particle" style="left: 49.51%; top: 91.68%; width: 2.66px; height: 2.66px; animation-duration: 14.63s; animation-delay: -15.56s; --p-x: 14.0px; --p-op: 0.24;"></span><span class="particle" style="left: 92.7%; top: 84.53%; width: 2.74px; height: 2.74px; animation-duration: 24.55s; animation-delay: -16.15s; --p-x: -34.1px; --p-op: 0.34;"></span><span class="particle" style="left: 58.32%; top: 68.77%; width: 1.47px; height: 1.47px; animation-duration: 22.16s; animation-delay: -24.87s; --p-x: -39.7px; --p-op: 0.37;"></span><span class="particle" style="left: 66.14%; top: 46.43%; width: 3.46px; height: 3.46px; animation-duration: 19.71s; animation-delay: -27.29s; --p-x: -12.7px; --p-op: 0.28;"></span><span class="particle" style="left: 6.31%; top: 28.52%; width: 2.87px; height: 2.87px; animation-duration: 27.79s; animation-delay: -29.34s; --p-x: -31.6px; --p-op: 0.36;"></span><span class="particle" style="left: 38.72%; top: 13.58%; width: 3.58px; height: 3.58px; animation-duration: 25.03s; animation-delay: -14.36s; --p-x: -27.0px; --p-op: 0.22;"></span><span class="particle" style="left: 63.36%; top: 31.27%; width: 3.4px; height: 3.4px; animation-duration: 20.6s; animation-delay: -25.63s; --p-x: 1.0px; --p-op: 0.38;"></span><span class="particle" style="left: 91.34%; top: 41.91%; width: 3.02px; height: 3.02px; animation-duration: 14.13s; animation-delay: -0.69s; --p-x: 17.1px; --p-op: 0.17;"></span><span class="particle" style="left: 47.11%; top: 53.75%; width: 2.41px; height: 2.41px; animation-duration: 22.68s; animation-delay: -12.87s; --p-x: -19.7px; --p-op: 0.21;"></span><span class="particle" style="left: 50.77%; top: 0.02%; width: 2.68px; height: 2.68px; animation-duration: 14s; animation-delay: -25.18s; --p-x: 21.8px; --p-op: 0.18;"></span><span class="particle" style="left: 39.13%; top: 19.83%; width: 2.4px; height: 2.4px; animation-duration: 25.77s; animation-delay: -29.38s; --p-x: 6.8px; --p-op: 0.19;"></span><span class="particle" style="left: 49.48%; top: 92%; width: 2.45px; height: 2.45px; animation-duration: 26.4s; animation-delay: -14.72s; --p-x: 14.5px; --p-op: 0.25;"></span><span class="particle" style="left: 63.72%; top: 22.86%; width: 2.83px; height: 2.83px; animation-duration: 26.56s; animation-delay: -18.54s; --p-x: 38.6px; --p-op: 0.36;"></span><span class="particle" style="left: 32.12%; top: 65.9%; width: 1.75px; height: 1.75px; animation-duration: 15.36s; animation-delay: -20.57s; --p-x: -35.6px; --p-op: 0.37;"></span><span class="particle" style="left: 59.26%; top: 23.63%; width: 2.5px; height: 2.5px; animation-duration: 20.24s; animation-delay: -2.66s; --p-x: -15.6px; --p-op: 0.17;"></span><span class="particle" style="left: 38.4%; top: 15.26%; width: 2.44px; height: 2.44px; animation-duration: 18.32s; animation-delay: -29.19s; --p-x: -8.7px; --p-op: 0.21;"></span><span class="particle" style="left: 23.68%; top: 5.42%; width: 2.36px; height: 2.36px; animation-duration: 20.28s; animation-delay: -24.64s; --p-x: 39.6px; --p-op: 0.28;"></span><span class="particle" style="left: 73.91%; top: 21.02%; width: 1.33px; height: 1.33px; animation-duration: 22.58s; animation-delay: -2.54s; --p-x: 22.9px; --p-op: 0.34;"></span><span class="particle" style="left: 2.29%; top: 58.09%; width: 1.21px; height: 1.21px; animation-duration: 22.68s; animation-delay: -22.57s; --p-x: -33.3px; --p-op: 0.17;"></span><span class="particle" style="left: 66.7%; top: 98.28%; width: 1.88px; height: 1.88px; animation-duration: 23.3s; animation-delay: -25.79s; --p-x: 5.7px; --p-op: 0.37;"></span><span class="particle" style="left: 56.92%; top: 37.2%; width: 2.92px; height: 2.92px; animation-duration: 29.21s; animation-delay: -7.23s; --p-x: 10.6px; --p-op: 0.36;"></span><span class="particle" style="left: 5.36%; top: 66.34%; width: 1.39px; height: 1.39px; animation-duration: 14.75s; animation-delay: -17.97s; --p-x: -35.4px; --p-op: 0.34;"></span><span class="particle" style="left: 20.26%; top: 50.51%; width: 3.1px; height: 3.1px; animation-duration: 14.99s; animation-delay: -14.75s; --p-x: 17.5px; --p-op: 0.20;"></span><span class="particle" style="left: 22.08%; top: 32.83%; width: 1.85px; height: 1.85px; animation-duration: 14.82s; animation-delay: -6.79s; --p-x: -35.2px; --p-op: 0.22;"></span><span class="particle" style="left: 34.13%; top: 88.62%; width: 1.71px; height: 1.71px; animation-duration: 22.34s; animation-delay: -9.67s; --p-x: 9.4px; --p-op: 0.32;"></span><span class="particle" style="left: 96.3%; top: 3.36%; width: 3.18px; height: 3.18px; animation-duration: 16.72s; animation-delay: -5.84s; --p-x: 28.2px; --p-op: 0.26;"></span><span class="particle" style="left: 87.07%; top: 20.92%; width: 2.22px; height: 2.22px; animation-duration: 17.31s; animation-delay: -2.97s; --p-x: -12.4px; --p-op: 0.39;"></span><span class="particle" style="left: 4.57%; top: 48.21%; width: 1.97px; height: 1.97px; animation-duration: 23.17s; animation-delay: -20.91s; --p-x: 37.8px; --p-op: 0.38;"></span><span class="particle" style="left: 43.54%; top: 53.86%; width: 1.75px; height: 1.75px; animation-duration: 18.26s; animation-delay: -8.16s; --p-x: -0.8px; --p-op: 0.36;"></span><span class="particle" style="left: 85.02%; top: 2%; width: 2.65px; height: 2.65px; animation-duration: 22.28s; animation-delay: -18.4s; --p-x: -19.0px; --p-op: 0.27;"></span><span class="particle" style="left: 58.79%; top: 82.05%; width: 2.26px; height: 2.26px; animation-duration: 24.2s; animation-delay: -8.35s; --p-x: -29.3px; --p-op: 0.33;"></span><span class="particle" style="left: 71.96%; top: 67.22%; width: 2.87px; height: 2.87px; animation-duration: 29.58s; animation-delay: -9.9s; --p-x: 4.0px; --p-op: 0.38;"></span><span class="particle" style="left: 41.23%; top: 13.46%; width: 2.84px; height: 2.84px; animation-duration: 21.06s; animation-delay: -18.31s; --p-x: 15.7px; --p-op: 0.37;"></span><span class="particle" style="left: 16.49%; top: 45.95%; width: 2.95px; height: 2.95px; animation-duration: 18.63s; animation-delay: -20.92s; --p-x: 23.1px; --p-op: 0.26;"></span><span class="particle" style="left: 85.99%; top: 99.02%; width: 3.27px; height: 3.27px; animation-duration: 28.64s; animation-delay: -21.54s; --p-x: 3.1px; --p-op: 0.38;"></span><span class="particle" style="left: 43.03%; top: 40.54%; width: 3.52px; height: 3.52px; animation-duration: 19.65s; animation-delay: -5.69s; --p-x: 11.6px; --p-op: 0.24;"></span><span class="particle" style="left: 49.42%; top: 35.76%; width: 1.55px; height: 1.55px; animation-duration: 19.09s; animation-delay: -8.18s; --p-x: -22.3px; --p-op: 0.27;"></span><span class="particle" style="left: 82.42%; top: 18.08%; width: 2.56px; height: 2.56px; animation-duration: 25.54s; animation-delay: -12.35s; --p-x: 9.0px; --p-op: 0.28;"></span><span class="particle" style="left: 32.73%; top: 65.72%; width: 1.72px; height: 1.72px; animation-duration: 21.74s; animation-delay: -9.77s; --p-x: -6.9px; --p-op: 0.31;"></span><span class="particle" style="left: 5.24%; top: 54.69%; width: 2.33px; height: 2.33px; animation-duration: 27.39s; animation-delay: -29.8s; --p-x: 14.2px; --p-op: 0.33;"></span><span class="particle" style="left: 69.38%; top: 49.87%; width: 1.79px; height: 1.79px; animation-duration: 20.94s; animation-delay: -22.93s; --p-x: 9.0px; --p-op: 0.23;"></span><span class="particle" style="left: 88.83%; top: 65.47%; width: 3.08px; height: 3.08px; animation-duration: 27.04s; animation-delay: -24.07s; --p-x: -21.7px; --p-op: 0.35;"></span><span class="particle" style="left: 80.29%; top: 0.41%; width: 2.97px; height: 2.97px; animation-duration: 19.84s; animation-delay: -11.33s; --p-x: 1.6px; --p-op: 0.39;"></span><span class="particle" style="left: 21.32%; top: 30.07%; width: 3.51px; height: 3.51px; animation-duration: 17.36s; animation-delay: -6.55s; --p-x: 5.9px; --p-op: 0.19;"></span><span class="particle" style="left: 78.04%; top: 18.67%; width: 2.44px; height: 2.44px; animation-duration: 29.08s; animation-delay: -0.37s; --p-x: -20.6px; --p-op: 0.40;"></span><span class="particle" style="left: 47.24%; top: 63.94%; width: 1.61px; height: 1.61px; animation-duration: 26.65s; animation-delay: -23.17s; --p-x: -38.7px; --p-op: 0.23;"></span><span class="particle" style="left: 16.84%; top: 87.92%; width: 2.65px; height: 2.65px; animation-duration: 16.37s; animation-delay: -18.54s; --p-x: -37.1px; --p-op: 0.36;"></span><span class="particle" style="left: 95.01%; top: 78.5%; width: 2.89px; height: 2.89px; animation-duration: 22.05s; animation-delay: -23.38s; --p-x: -12.8px; --p-op: 0.26;"></span><span class="particle" style="left: 64.71%; top: 64.56%; width: 1.44px; height: 1.44px; animation-duration: 20.26s; animation-delay: -6.69s; --p-x: 7.8px; --p-op: 0.23;"></span><span class="particle" style="left: 67.05%; top: 52.89%; width: 3.11px; height: 3.11px; animation-duration: 20.78s; animation-delay: -29.38s; --p-x: -1.5px; --p-op: 0.40;"></span><span class="particle" style="left: 64.85%; top: 60.83%; width: 3.66px; height: 3.66px; animation-duration: 19.81s; animation-delay: -17.36s; --p-x: 39.1px; --p-op: 0.33;"></span><span class="particle" style="left: 15.15%; top: 99.78%; width: 3.15px; height: 3.15px; animation-duration: 14.93s; animation-delay: -6.93s; --p-x: 1.5px; --p-op: 0.38;"></span><span class="particle" style="left: 17.19%; top: 36.69%; width: 2.32px; height: 2.32px; animation-duration: 19.79s; animation-delay: -27.19s; --p-x: -39.4px; --p-op: 0.31;"></span><span class="particle" style="left: 49.52%; top: 86.24%; width: 2.91px; height: 2.91px; animation-duration: 24.87s; animation-delay: -28.4s; --p-x: -14.7px; --p-op: 0.23;"></span><span class="particle" style="left: 65.67%; top: 56.67%; width: 1.54px; height: 1.54px; animation-duration: 21.63s; animation-delay: -15.32s; --p-x: -39.1px; --p-op: 0.22;"></span><span class="particle" style="left: 64.55%; top: 11.06%; width: 1.85px; height: 1.85px; animation-duration: 17.15s; animation-delay: -11.76s; --p-x: -2.6px; --p-op: 0.31;"></span><span class="particle" style="left: 49.65%; top: 90.21%; width: 2.16px; height: 2.16px; animation-duration: 24.8s; animation-delay: -23.63s; --p-x: 18.4px; --p-op: 0.32;"></span></div>
+
+<!-- ════════════════════════════════════════
+     NAV PILL (fixed glass)
+════════════════════════════════════════ -->
+<nav class="nav-pill" aria-label="Navegação">
+  <a href="#hero" class="nav-pill__brand">
+    <span class="nav-pill__brand-dot"></span>
+    Portal Astral
+  </a>
+  <div class="nav-pill__links">
+    <a href="#livros" class="nav-pill__link">Livros</a>
+    <a href="#preco" class="nav-pill__link">Preço</a>
+    <a href="#faq" class="nav-pill__link">FAQ</a>
+  </div>
+  <a href="https://pay.cakto.com.br/3ji6cf4_868267" data-checkout="https://pay.cakto.com.br/3ji6cf4_868267" class="nav-pill__cta">Acessar →</a>
+</nav>
+
+<!-- ════════════════════════════════════════
+     HERO
+════════════════════════════════════════ -->
+<section id="hero">
+  <div class="wrap">
+    <div class="hero__inner">
+
+      <!-- TEXTO -->
+      <div>
+        <h1 class="hero__h1 sr sr-d1 in" style="text-align:center">
+          <em><span class="brand-bib">Portal</span> <span class="brand-ast">Astral</span></em>
+        </h1>
+
+        <p class="hero__sub sr sr-d2 in" style="text-align:center;max-width:100%">
+          Livros de Magia, Bruxaria, Espiritualidade, Ocultismo, Projeção Astral, Feitiços e MUITO MAIS. <strong>Na palma da sua mão.</strong>
+        </p>
+      </div>
+
+      <!-- MINI VSL -->
+      <div class="sr sr-d2 in">
+        <div class="vsl vsl--mudo" id="vsl">
+          <!-- vídeo hospedado no YouTube (Short F3OkQJDrXOw) — nada de mp4 servido pela Vercel -->
+          <iframe class="vsl__video" id="vslVideo" src="https://www.youtube.com/embed/i5pO_-Q4yn0" title="Conheça a Biblioteca Astral" width="540" height="960" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+          <button class="vsl__toggle" id="vslToggle" type="button" aria-label="Ativar o som do vídeo">
+            <span class="vsl__pill">
+              <svg class="vsl__ico vsl__ico--off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H2v6h4l5 4z"></path><line x1="22" y1="9" x2="16" y2="15"></line><line x1="16" y1="9" x2="22" y2="15"></line></svg>
+              <svg class="vsl__ico vsl__ico--on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H2v6h4l5 4z"></path><path d="M15.5 8.5a5 5 0 0 1 0 7"></path><path d="M19 5a9 9 0 0 1 0 14"></path></svg>
+              <svg class="vsl__ico vsl__ico--play" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
+              <span class="vsl__rotulo" id="vslRotulo">Ativar som</span>
+            </span>
+          </button>
+        </div>
+
+        <div class="hero__social sr sr-d3 in" style="justify-content:center">
+          <div class="hero__avatares">
+            <div class="hero__avatar"><picture><source srcset="images/magista1.webp" type="image/webp"><img src="images/magista1.jpg" alt="" decoding="async" width="40" height="40"></picture></div>
+            <div class="hero__avatar"><picture><source srcset="images/magista2.webp" type="image/webp"><img src="images/magista2.jpg" alt="" decoding="async" width="40" height="40"></picture></div>
+            <div class="hero__avatar"><picture><source srcset="images/magista3.webp" type="image/webp"><img src="images/magista3.jpg" alt="" decoding="async" width="40" height="40"></picture></div>
+            <div class="hero__avatar"><picture><source srcset="images/magista4.webp" type="image/webp"><img src="images/magista4.jpg" alt="" decoding="async" width="40" height="40"></picture></div>
+            <div class="hero__avatar"><picture><source srcset="images/magista5.webp" type="image/webp"><img src="images/magista5.png" alt="" decoding="async" width="40" height="40"></picture></div>
+          </div>
+          <p class="hero__social-txt"><strong>+22.000 bruxas e magos</strong> já acessam</p>
+        </div>
+
+        <div class="vsl__cta sr sr-d4 in">
+          <a href="#preco" class="btn">
+            <span>ACESSAR AGORA <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 5l7 7-7 7"></path></svg></span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════
+     ESTEIRA DE CAPAS
+════════════════════════════════════════ -->
+<section class="esteira" aria-hidden="true">
+  <p class="esteira__frase">É apenas o que podemos mostrar aqui</p>
+  <div class="esteira__rows">
+    <div class="esteira__fade esteira__fade--l"></div>
+    <div class="esteira__fade esteira__fade--r"></div>
+    <div class="esteira__track esteira__track--l">
+      <div class="esteira__group">
+        <img class="esteira__cover" src="images/capa-01.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-02.jpg" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-03.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-04.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-05.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-06.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-07.jpg" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-08.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-09.jpg" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-10.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-11.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-12.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-13.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-14.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-15.jpg" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-16.webp" alt="" loading="lazy" decoding="async">
+      </div>
+      <div class="esteira__group">
+        <img class="esteira__cover" src="images/capa-01.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-02.jpg" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-03.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-04.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-05.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-06.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-07.jpg" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-08.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-09.jpg" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-10.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-11.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-12.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-13.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-14.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-15.jpg" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-16.webp" alt="" loading="lazy" decoding="async">
+      </div>
+    </div>
+    <div class="esteira__track esteira__track--r">
+      <div class="esteira__group">
+        <img class="esteira__cover" src="images/capa-17.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-18.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-19.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-20.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-21.jpg" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-22.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-23.jpg" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-24.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-25.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-26.jpg" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-27.jpg" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-28.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-29.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-30.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-31.jpg" alt="" loading="lazy" decoding="async">
+      </div>
+      <div class="esteira__group">
+        <img class="esteira__cover" src="images/capa-17.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-18.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-19.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-20.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-21.jpg" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-22.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-23.jpg" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-24.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-25.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-26.jpg" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-27.jpg" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-28.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-29.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-30.webp" alt="" loading="lazy" decoding="async">
+        <img class="esteira__cover" src="images/capa-31.jpg" alt="" loading="lazy" decoding="async">
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ════════════════════════════════════════
+     DENTRO DOS LIVROS
+════════════════════════════════════════ -->
+<section id="livros">
+  <div class="wrap-sm">
+    <h2 class="sec-titulo sr" style="text-align:center">DENTRO DOS<br><span>LIVROS</span></h2>
+    <p class="sec-sub sr sr-d1" style="text-align:center">Uma amostra do que te espera</p>
+
+    <div class="car-livros sr sr-d2">
+      <div class="car-livros__track" id="carLivros" style="transition: transform 0.55s cubic-bezier(0.16, 1, 0.3, 1);">
+        <div class="car-livros__slide"><picture><source srcset="images/sentimentos.webp" type="image/webp"><img src="images/sentimentos.jpg" alt="Página 1" loading="lazy" decoding="async" width="320" height="450"></picture></div>
+        <div class="car-livros__slide"><picture><source srcset="images/ilusoes.webp" type="image/webp"><img src="images/ilusoes.jpg" alt="Página 2" loading="lazy" decoding="async" width="320" height="450"></picture></div>
+        <div class="car-livros__slide"><picture><source srcset="images/planos.webp" type="image/webp"><img src="images/planos.jpg" alt="Página 3" loading="lazy" decoding="async" width="320" height="450"></picture></div>
+        <div class="car-livros__slide"><picture><source srcset="images/chacaras.webp" type="image/webp"><img src="images/chacaras.jpg" alt="Página 4" loading="lazy" decoding="async" width="320" height="450"></picture></div>
+        <div class="car-livros__slide"><picture><source srcset="images/specula.webp" type="image/webp"><img src="images/specula.jpg" alt="Página 5" loading="lazy" decoding="async" width="320" height="450"></picture></div>
+        <div class="car-livros__slide"><picture><source srcset="images/sigilos.webp" type="image/webp"><img src="images/sigilos.jpg" alt="Página 6" loading="lazy" decoding="async" width="320" height="450"></picture></div>
+        <div class="car-livros__slide"><picture><source srcset="images/paginaritual.webp" type="image/webp"><img src="images/paginaritual.jpg" alt="Página 7" loading="lazy" decoding="async" width="320" height="450"></picture></div>
+        <div class="car-livros__slide"><picture><source srcset="images/paginaarquetipos.webp" type="image/webp"><img src="images/paginaarquetipos.jpg" alt="Página 8" loading="lazy" decoding="async" width="320" height="450"></picture></div>
+      </div>
+      <button class="car-livros__btn car-livros__btn--p" onclick="livrosGo(livrosIdx-1)" aria-label="Anterior">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"></path></svg>
+      </button>
+      <button class="car-livros__btn car-livros__btn--n" onclick="livrosGo(livrosIdx+1)" aria-label="Próximo">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"></path></svg>
+      </button>
+      <div class="car-livros__dots" id="livrosDots"><button class="car-livros__dot on" aria-label="Página 1"></button><button class="car-livros__dot" aria-label="Página 2"></button><button class="car-livros__dot" aria-label="Página 3"></button><button class="car-livros__dot" aria-label="Página 4"></button><button class="car-livros__dot" aria-label="Página 5"></button><button class="car-livros__dot" aria-label="Página 6"></button><button class="car-livros__dot" aria-label="Página 7"></button><button class="car-livros__dot" aria-label="Página 8"></button></div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ════════════════════════════════════════
+     TEMAS
+════════════════════════════════════════ -->
+<section id="temas">
+  <div class="wrap-sm">
+    <h2 class="sec-titulo sr" style="text-align:center">+40 TEMAS<br><span>Místicos e Ocultos</span></h2>
+    <p class="sec-sub sr sr-d1" style="text-align:center">Cada tema é uma porta. Você decide por onde entrar.</p>
+
+    <div class="temas-grid sr sr-d2">
+      <span class="tema">Projeção astral</span>
+      <span class="tema">Alta magia</span>
+      <span class="tema">Hermetismo</span>
+      <span class="tema">Bruxaria</span>
+      <span class="tema">Tarot</span>
+      <span class="tema">Goetia</span>
+      <span class="tema">Cabala</span>
+      <span class="tema">Magia enochiana</span>
+      <span class="tema">Clarividência</span>
+      <span class="tema">Mediunidade</span>
+      <span class="tema">Meditação e gnose</span>
+      <span class="tema">Astrologia</span>
+      <span class="tema">Wicca</span>
+      <span class="tema">Xamanismo</span>
+      <span class="tema">Demonologia</span>
+      <span class="tema">Alquimia</span>
+      <span class="tema">Chakras</span>
+      <span class="tema">Magia angelical</span>
+      <span class="tema">Sonhos lúcidos</span>
+      <span class="tema">Magia do caos</span>
+      <span class="tema">Sigilos</span>
+      <span class="tema">Magia de velas</span>
+      <span class="tema">Ocultismo</span>
+      <span class="tema">Shadow work</span>
+      <span class="tema">Intuição</span>
+      <span class="tema">Maçonaria</span>
+      <span class="tema">Vampirismo</span>
+      <span class="tema">Pop magic</span>
+      <span class="tema">Quiromancia</span>
+      <span class="tema">Banimento</span>
+      <span class="tema">Autoconhecimento</span>
+      <span class="tema">E muito mais</span>
+    </div>
+
+    <div style="text-align:center;margin-top:48px" class="sr sr-d3">
+      <a href="#preco" class="btn">
+        <span>ACESSAR AGORA <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 5l7 7-7 7"></path></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<div class="divider"></div>
+
+<!-- ════════════════════════════════════════
+     BÔNUS EXCLUSIVO
+════════════════════════════════════════ -->
+<section id="bonus-sec">
+  <div class="wrap-xs">
+    <div class="bonus sr sr-d2">
+      <p class="bonus__titulo">✦ Bônus exclusivo</p>
+      <p class="bonus__sub">Solicitação de livros personalizada — <span>incluso sem custo adicional</span></p>
+      <p class="bonus__desc">Não encontrou o livro que procura? Solicite e nossa equipe adiciona pra você.</p>
+      <p class="bonus__riscado">antes: R$37,00 por solicitação</p>
+
+      <div class="bonus__chat-wrap">
+        <div class="bonus__chat">
+          <div class="chat-track" id="bonus-chat"><div class="chat-msg chat-msg--client in"><div class="chat-bubble chat-typing"><span></span><span></span><span></span></div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bonus bonus--egregora sr sr-d3">
+      <div class="bonus__head">
+        <span class="bonus__badge">Bônus</span>
+        <svg class="eg-glifo" viewBox="0 0 84 46" fill="none" aria-hidden="true">
+          <line x1="42" y1="23" x2="7" y2="12"></line>
+          <line x1="42" y1="23" x2="7" y2="34"></line>
+          <line x1="42" y1="23" x2="42" y2="5"></line>
+          <line x1="42" y1="23" x2="42" y2="41"></line>
+          <line x1="42" y1="23" x2="77" y2="12"></line>
+          <line x1="42" y1="23" x2="77" y2="34"></line>
+          <circle class="eg-anel" cx="42" cy="23" r="9"></circle>
+          <circle class="eg-hub" cx="42" cy="23" r="4"></circle>
+          <circle class="eg-sat" cx="7" cy="12" r="2.6"></circle>
+          <circle class="eg-sat" cx="7" cy="34" r="2.6" style="animation-delay:.6s"></circle>
+          <circle class="eg-sat" cx="42" cy="5" r="2.6" style="animation-delay:1.2s"></circle>
+          <circle class="eg-sat" cx="42" cy="41" r="2.6" style="animation-delay:1.8s"></circle>
+          <circle class="eg-sat" cx="77" cy="12" r="2.6" style="animation-delay:2.4s"></circle>
+          <circle class="eg-sat" cx="77" cy="34" r="2.6" style="animation-delay:3s"></circle>
+        </svg>
+      </div>
+
+      <p class="bonus__sub bonus__sub--eg">A Egrégora: <span>sua tribo espiritual</span></p>
+      <p class="bonus__meta">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
+        Comunidade dentro da plataforma
+      </p>
+
+      <p class="bonus__p">Estudar ocultismo sozinho tem um preço silencioso: você evolui, mas não tem com quem compartilhar. As pessoas ao seu redor não entendem o caminho que você trilha. Você aprende algo poderoso e não tem pra quem contar. Sente que fala outra língua.</p>
+
+      <p class="bonus__corte">Isso acaba aqui.</p>
+
+      <p class="bonus__p">Ao entrar, você recebe acesso à nossa <strong>egrégora</strong>, uma comunidade fechada de bruxas, magos, ocultistas e buscadores na mesma frequência que você. Um espaço vivo onde o conhecimento circula, as dúvidas encontram resposta e cada membro fortalece o campo do outro.</p>
+
+      <p class="bonus__p">Porque na tradição, sempre foi assim: o conhecimento mais profundo nunca foi passado por livros. Foi passado <strong>de pessoa para pessoa, dentro de círculos</strong>. Toda ordem, todo templo, toda escola iniciática teve sua tribo. E agora você terá a sua.</p>
+
+      <p class="bonus__label">O que você encontra dentro</p>
+      <ul class="bonus__lista">
+        <li class="bonus__item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="m8.5 12 2.4 2.4 4.6-4.8"></path></svg>
+          <span><strong>Troca real</strong> com quem está no mesmo caminho, do iniciante ao avançado</span>
+        </li>
+        <li class="bonus__item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="m8.5 12 2.4 2.4 4.6-4.8"></path></svg>
+          <span><strong>Networking espiritual:</strong> conexões, parcerias e amizades de propósito</span>
+        </li>
+        <li class="bonus__item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="m8.5 12 2.4 2.4 4.6-4.8"></path></svg>
+          <span>Um <strong>campo coletivo</strong> que amplifica sua própria prática</span>
+        </li>
+        <li class="bonus__item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="m8.5 12 2.4 2.4 4.6-4.8"></path></svg>
+          <span>Espaço para <strong>tirar dúvidas</strong>, compartilhar experiências e crescer junto</span>
+        </li>
+      </ul>
+
+      <p class="bonus__fecho">Você não vai mais estudar sozinho. <span>Vai fazer parte de algo maior.</span></p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ════════════════════════════════════════
+     DEPOIMENTOS
+════════════════════════════════════════ -->
+<section id="depoimentos">
+  <div class="wrap">
+    <h2 class="sec-titulo sr" style="text-align:center">O QUE DIZEM<br><span>OS MEMBROS</span></h2>
+
+    <div class="dep-grid">
+      <div class="dep-card sr sr-d1">
+        <div class="estrelas"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></div>
+        <div class="dep-autor"><picture><source srcset="images/camila.webp" type="image/webp"><img src="images/camila.jpg" alt="Camila F." loading="lazy" decoding="async" width="44" height="44"></picture><div><p class="dep-autor__nome">Camila F.</p><p class="dep-autor__local">Lisboa, Portugal</p></div></div>
+        <img class="dep-card__print" src="images/dep-camila.webp" alt="Depoimento de Camila F." loading="lazy" decoding="async" width="640" height="343">
+      </div>
+      <div class="dep-card sr sr-d2">
+        <div class="estrelas"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></div>
+        <div class="dep-autor"><picture><source srcset="images/lucass.webp" type="image/webp"><img src="images/lucass.jpg" alt="Rafael" loading="lazy" decoding="async" width="44" height="44"></picture><div><p class="dep-autor__nome">Rafael</p><p class="dep-autor__local">Rio de Janeiro, RJ</p></div></div>
+        <img class="dep-card__print" src="images/dep-rafael.webp" alt="Depoimento de Rafael" loading="lazy" decoding="async" width="640" height="251">
+      </div>
+      <div class="dep-card sr sr-d3">
+        <div class="estrelas"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></div>
+        <div class="dep-autor"><picture><source srcset="images/mariana.webp" type="image/webp"><img src="images/mariana.jpg" alt="Mari L." loading="lazy" decoding="async" width="44" height="44"></picture><div><p class="dep-autor__nome">Mari L.</p><p class="dep-autor__local">São Paulo, SP</p></div></div>
+        <img class="dep-card__print" src="images/dep-mari-2.webp" alt="Depoimento de Mari L." loading="lazy" decoding="async" width="640" height="331">
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ════════════════════════════════════════
+     COMPARATIVO
+════════════════════════════════════════ -->
+<section id="comparativo">
+  <div class="wrap">
+    <h2 class="sec-titulo sr" style="text-align:center">FAÇA<br><span>AS CONTAS</span></h2>
+    <p class="sec-sub sr sr-d1" style="text-align:center">O mesmo conhecimento. Três caminhos bem diferentes.</p>
+
+    <div class="comp-grid">
+
+      <div class="comp-card sr sr-d1">
+        <p class="comp-card__sobre">Caminho 1</p>
+        <h3 class="comp-card__titulo">LIVROS FÍSICOS</h3>
+        <ul class="comp-lista">
+          <li class="comp-item comp-item--nao">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="9"></circle><path d="m15 9-6 6M9 9l6 6"></path></svg>
+            <span>Cerca de <strong>R$50</strong> cada título</span>
+          </li>
+          <li class="comp-item comp-item--nao">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="9"></circle><path d="m15 9-6 6M9 9l6 6"></path></svg>
+            <span>10 livros já passam de R$500</span>
+          </li>
+          <li class="comp-item comp-item--nao">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="9"></circle><path d="m15 9-6 6M9 9l6 6"></path></svg>
+            <span>A maioria está fora de catálogo</span>
+          </li>
+          <li class="comp-item comp-item--nao">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="9"></circle><path d="m15 9-6 6M9 9l6 6"></path></svg>
+            <span>Usado, o preço triplica</span>
+          </li>
+        </ul>
+        <div class="comp-card__rodape">
+          <span class="comp-card__rotulo">Custo real</span>
+          <span class="comp-card__valor">R$500+</span>
+        </div>
+      </div>
+
+      <div class="comp-card sr sr-d2">
+        <p class="comp-card__sobre">Caminho 2</p>
+        <h3 class="comp-card__titulo">DRIVES E PDFs</h3>
+        <ul class="comp-lista">
+          <li class="comp-item comp-item--nao">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="9"></circle><path d="m15 9-6 6M9 9l6 6"></path></svg>
+            <span>Letra miúda e fundo branco</span>
+          </li>
+          <li class="comp-item comp-item--nao">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="9"></circle><path d="m15 9-6 6M9 9l6 6"></path></svg>
+            <span>Não salva onde você parou</span>
+          </li>
+          <li class="comp-item comp-item--nao">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="9"></circle><path d="m15 9-6 6M9 9l6 6"></path></svg>
+            <span>Pastas bagunçadas</span>
+          </li>
+          <li class="comp-item comp-item--nao">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="9"></circle><path d="m15 9-6 6M9 9l6 6"></path></svg>
+            <span>Arquivos corrompidos ou pela metade</span>
+          </li>
+        </ul>
+        <div class="comp-card__rodape">
+          <span class="comp-card__rotulo">Custo real</span>
+          <span class="comp-card__valor">Seu tempo</span>
+        </div>
+      </div>
+
+      <div class="comp-card comp-card--win sr sr-d3">
+        <p class="comp-card__sobre">Caminho 3</p>
+        <h3 class="comp-card__titulo">PORTAL ASTRAL</h3>
+        <ul class="comp-lista">
+          <li class="comp-item comp-item--sim">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="m8.5 12 2.4 2.4 4.6-4.8"></path></svg>
+            <span>Organização por categoria</span>
+          </li>
+          <li class="comp-item comp-item--sim">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="m8.5 12 2.4 2.4 4.6-4.8"></path></svg>
+            <span>Salva onde sua leitura parou</span>
+          </li>
+          <li class="comp-item comp-item--sim">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="m8.5 12 2.4 2.4 4.6-4.8"></path></svg>
+            <span>Modo noturno e fonte ajustável</span>
+          </li>
+          <li class="comp-item comp-item--sim">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="m8.5 12 2.4 2.4 4.6-4.8"></path></svg>
+            <span>Comunidade dentro da plataforma</span>
+          </li>
+          <li class="comp-item comp-item--sim">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="m8.5 12 2.4 2.4 4.6-4.8"></path></svg>
+            <span>Peça o livro que faltar</span>
+          </li>
+        </ul>
+        <div class="comp-card__rodape">
+          <span class="comp-card__rotulo">Apenas</span>
+          <span class="comp-card__valor">R$37</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ════════════════════════════════════════
+     PREÇO
+════════════════════════════════════════ -->
+<section id="preco">
+  <div class="wrap-xs">
+    <div class="preco__hero sr">
+      <h2 class="preco__hero-h">UMA VEZ.<br><span>PARA SEMPRE.</span></h2>
+      <p class="preco__hero-sub">De <s>R$67/mês</s> por <span class="preco-green">R$37</span> — pagamento único.</p>
+      <div class="preco__countdown">
+        <span class="preco__countdown-label">Essa condição especial acaba em:</span>
+        <span class="preco__countdown-time" id="countdown-timer">07:31:00</span>
+      </div>
+    </div>
+
+    <div class="preco__box sr sr-d1">
+      <p class="preco__valor">R$37</p>
+      <p class="preco__obs">pagamento único — acesso vitalício</p>
+
+      <ul class="preco__feats">
+        <li class="preco__feat">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"></path></svg>
+          <span class="preco__feat-txt">Suporte humano pelo WhatsApp <span class="preco__feat-obs">(tire dúvidas)</span></span>
+        </li>
+        <li class="preco__feat">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"></path></svg>
+          <span class="preco__feat-txt">Sem mensalidade</span>
+        </li>
+        <li class="preco__feat">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"></path></svg>
+          <span class="preco__feat-txt">Acesso completo a <strong>mais de 10.000 livros</strong></span>
+        </li>
+        <li class="preco__feat">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"></path></svg>
+          <span class="preco__feat-txt">Solicitação personalizada <span class="preco__feat-obs">(peça qual quiser)</span></span>
+        </li>
+        <li class="preco__feat">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"></path></svg>
+          <span class="preco__feat-txt">Comunidade <strong>MAGISTAS ASTRAIS</strong> <span class="preco__feat-obs">(grupo fechado na plataforma)</span></span>
+        </li>
+        <li class="preco__feat">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"></path></svg>
+          <span class="preco__feat-txt">7 dias de garantia <span class="preco__feat-obs">(reembolso em 2 cliques)</span></span>
+        </li>
+        <li class="preco__feat">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"></path></svg>
+          <span class="preco__feat-txt">Acesso vitalício para sempre</span>
+        </li>
+      </ul>
+
+      <a href="https://pay.cakto.com.br/3ji6cf4_868267" data-checkout="https://pay.cakto.com.br/3ji6cf4_868267" class="btn btn--solid btn--full">
+        ACESSAR AGORA — R$37
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ════════════════════════════════════════
+     CTA FINAL
+════════════════════════════════════════ -->
+<section id="cta-final">
+  <div class="wrap-xs">
+    <!-- sem <source> webp: o png em paleta (10KB) ficou menor que o webp (27KB) neste logo chapado -->
+    <img src="images/logobiblioteca.png" alt="Biblioteca Astral" class="cta-final__logo sr" loading="lazy" decoding="async" width="120" height="120">
+    <h2 class="cta-final__h sr sr-d1">
+      +22.000 BRUXAS E MAGOS<br>
+      <span>JÁ FAZEM PARTE.</span><br>
+      VOCÊ É O PRÓXIMO?
+    </h2>
+    <p class="cta-final__sub sr sr-d2">Acesso vitalício. Sem mensalidade. 7 dias de garantia.</p>
+    <div class="sr sr-d3">
+      <a href="https://pay.cakto.com.br/3ji6cf4_868267" data-checkout="https://pay.cakto.com.br/3ji6cf4_868267" class="btn">
+        <span>ACESSAR AGORA — R$37 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 5l7 7-7 7"></path></svg></span>
+      </a>
+    </div>
+    <div class="selos sr sr-d4">
+      <div class="selo"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg>Checkout Seguro</div>
+      <div class="selo"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"></path></svg>Garantia 7 Dias</div>
+      <div class="selo"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="11" x="3" y="11" rx="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>Pagamento Seguro</div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ════════════════════════════════════════
+     FAQ
+════════════════════════════════════════ -->
+<section id="faq">
+  <div class="wrap-sm">
+    <h2 class="sec-titulo sr" style="text-align:center">PERGUNTAS<br><span>FREQUENTES</span></h2>
+
+    <div class="faq-lista sr sr-d1">
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">📌 O acesso é realmente vitalício?<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"></path></svg></button>
+        <div class="faq-r">Sim. Você paga R$37 uma única vez e tem acesso para sempre — sem mensalidades, sem renovações automáticas.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">📚 Quantos livros tem na Biblioteca?<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"></path></svg></button>
+        <div class="faq-r">Centenas de obras organizadas por tema e nível — do iniciante ao avançado. O acervo é atualizado regularmente.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">🪄 Posso pedir um livro específico?<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"></path></svg></button>
+        <div class="faq-r">Sim. O bônus de solicitação personalizada está incluso. Basta pedir e nossa equipe adiciona sem custo adicional.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">📲 Funciona no celular?<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"></path></svg></button>
+        <div class="faq-r">Funciona em ambos. É um PWA — você instala no celular como um app nativo ou acessa pelo navegador no computador.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">💸 E se eu não gostar?<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"></path></svg></button>
+        <div class="faq-r">7 dias de garantia total. Se não gostar, basta pedir o reembolso — sem perguntas, sem burocracia.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">🧾 Como recebo o acesso?<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"></path></svg></button>
+        <div class="faq-r">Imediatamente após a confirmação do pagamento, você recebe um e-mail com o link de acesso ao aplicativo.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer__brand">
+        <p class="footer__brand-logo">Portal Astral</p>
+        <p class="footer__brand-desc">O acervo digital de magia, ocultismo e desenvolvimento mental. Conhecimento ancestral, acesso vitalício.</p>
+      </div>
+      <div class="footer__col">
+        <h5>Acervo</h5>
+        <ul>
+          <li>Magia &amp; Rituais</li>
+          <li>Mediunidade</li>
+          <li>Hermetismo</li>
+          <li>Tarot &amp; Divinação</li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h5>Suporte</h5>
+        <ul>
+          <li><a href="#faq">Perguntas Frequentes</a></li>
+          <li>Garantia de 7 Dias</li>
+          <li>Pagamento Seguro</li>
+          <li>Política de Reembolso</li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h5>Acesso</h5>
+        <ul>
+          <li><a href="#preco">R$37 — Vitalício</a></li>
+          <li>PWA / Mobile</li>
+          <li>Web App</li>
+          <li>Atualizações contínuas</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bar">
+      <span>© 2026 Portal Astral Digital</span>
+      <span class="footer__status">
+        <span class="footer__status-dot"></span>
+        ALL SYSTEMS OPERATIONAL
+      </span>
+    </div>
+  </div>
+</footer>
+
+<!-- ════════════════════════════════════════
+     JAVASCRIPT
+════════════════════════════════════════ -->
+<script>
+  /* ── REDIRECIONAMENTO CENTRALIZADO — passa todos os params da URL ── */
+  function redirectWithParams(destination) {
+    var currentParams = window.location.search;
+    if (!currentParams) {
+      window.location.href = destination;
+      return;
+    }
+    if (destination.includes('?')) {
+      window.location.href = destination + '&' + currentParams.substring(1);
+    } else {
+      window.location.href = destination + currentParams;
+    }
+  }
+
+  /* Reescreve href dos botões de checkout com UTMs já concatenados — hover mostra a URL real */
+  (function rewriteCheckoutLinks() {
+    var params = window.location.search;
+    if (!params) return;
+    var apply = function () {
+      document.querySelectorAll('a[data-checkout]').forEach(function (a) {
+        var dest = a.getAttribute('data-checkout');
+        a.href = dest.includes('?')
+          ? dest + '&' + params.substring(1)
+          : dest + params;
+      });
+    };
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', apply);
+    } else {
+      apply();
+    }
+  })();
+
+  /* MINI VSL — embed do YouTube: autoplay mudo; primeiro clique reinicia com som.
+     Os comandos vão por postMessage (enablejsapi=1), sem carregar a IFrame API. */
+  (function vslInit(){
+    var wrap   = document.getElementById('vsl');
+    var v      = document.getElementById('vslVideo');
+    var btn    = document.getElementById('vslToggle');
+    var rotulo = document.getElementById('vslRotulo');
+    if (!wrap || !v || !btn) return;
+
+    var ativou   = false;
+    var mudo     = true;
+    var pronto   = false;
+    var terminou = false;
+    var parado   = null; /* timer do fallback "Assistir" */
+
+    function cmd(func, args) {
+      if (!v.contentWindow) return;
+      v.contentWindow.postMessage(JSON.stringify({ event: 'command', func: func, args: args || [] }), 'https://www.youtube.com');
+    }
+
+    function sincronizar() {
+      wrap.classList.toggle('vsl--mudo', mudo);
+      btn.setAttribute('aria-label', mudo ? 'Ativar o som do vídeo' : 'Desativar o som do vídeo');
+    }
+
+    /* handshake: o player só aceita comandos depois de "ouvir" a página */
+    v.addEventListener('load', function(){
+      pronto = true;
+      if (v.contentWindow) v.contentWindow.postMessage(JSON.stringify({ event: 'listening' }), 'https://www.youtube.com');
+    });
+
+    /* estado real do player (o usuário pode mexer nos controles do YouTube) */
+    window.addEventListener('message', function(e){
+      if (e.origin !== 'https://www.youtube.com' || e.source !== v.contentWindow) return;
+      var d; try { d = JSON.parse(e.data); } catch (_) { return; }
+      if (!d || !d.info) return;
+      if (typeof d.info.muted === 'boolean') { mudo = d.info.muted; sincronizar(); }
+      var st = d.info.playerState;
+      /* -1 = não iniciado. O player manda -1 antes de tentar o autoplay, então
+         espera um pouco: se continuar parado, o autoplay foi bloqueado → botão de play */
+      if (!ativou && st === -1 && !parado) {
+        parado = setTimeout(function(){ wrap.classList.add('vsl--parado'); rotulo.textContent = 'Assistir'; }, 2500);
+      }
+      if (st === 1 || st === 3) {
+        if (parado) { clearTimeout(parado); parado = null; }
+        wrap.classList.remove('vsl--parado');
+        if (!ativou) rotulo.textContent = 'Ativar som';
+      }
+      if (st === 0) { terminou = true; }
+    });
+
+    btn.addEventListener('click', function(){
+      if (!ativou) {
+        ativou = true;
+        if (parado) { clearTimeout(parado); parado = null; }
+        wrap.classList.remove('vsl--parado');
+        wrap.classList.add('vsl--ativo');
+        mudo = false;
+        cmd('unMute');
+        cmd('seekTo', [0, true]);
+      } else {
+        mudo = !mudo;
+        cmd(mudo ? 'mute' : 'unMute');
+      }
+      cmd('playVideo');
+      sincronizar();
+    });
+
+    /* economiza banda: segura o teaser enquanto está fora da tela e mudo */
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function(entradas){
+        entradas.forEach(function(e){
+          if (!pronto || terminou || !mudo || wrap.classList.contains('vsl--parado')) return;
+          cmd(e.isIntersecting ? 'playVideo' : 'pauseVideo');
+        });
+      }, { threshold: 0.15 }).observe(wrap);
+    }
+  })();
+
+  /* CARROSSEL LIVROS */
+  var lTrack  = document.getElementById('carLivros');
+  var lSlides = lTrack.querySelectorAll('.car-livros__slide');
+  var lDots   = document.getElementById('livrosDots');
+  var livrosIdx = 0, lTimer;
+  lTrack.style.transition = 'transform .55s cubic-bezier(0.16,1,0.3,1)';
+
+  lSlides.forEach(function(_, i) {
+    var d = document.createElement('button');
+    d.className = 'car-livros__dot' + (i === 0 ? ' on' : '');
+    d.setAttribute('aria-label', 'Página ' + (i+1));
+    d.onclick = function(){ livrosGo(i); };
+    lDots.appendChild(d);
+  });
+
+  function livrosGo(n) {
+    lDots.children[livrosIdx].classList.remove('on');
+    livrosIdx = (n + lSlides.length) % lSlides.length;
+    lTrack.style.transform = 'translateX(-' + livrosIdx * 100 + '%)';
+    lDots.children[livrosIdx].classList.add('on');
+    clearInterval(lTimer);
+    lTimer = setInterval(function(){ livrosGo(livrosIdx+1); }, 1500);
+  }
+  lTimer = setInterval(function(){ livrosGo(livrosIdx+1); }, 1500);
+
+  /* FAQ */
+  function toggleFaq(btn) {
+    var item = btn.parentElement;
+    var isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(function(el){ el.classList.remove('open'); });
+    if (!isOpen) item.classList.add('open');
+  }
+
+  /* SCROLL REVEAL */
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (e.isIntersecting) {
+        e.target.classList.add('in');
+        observer.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.sr').forEach(function(el) {
+    if (!el.classList.contains('in')) observer.observe(el);
+  });
+
+  /* marca hero como visível imediatamente */
+  document.querySelectorAll('#hero .sr').forEach(function(el){ el.classList.add('in'); });
+
+  /* PARTÍCULAS FLUTUANTES — distribuídas pelo body inteiro */
+  (function initParticles(){
+    var host = document.getElementById('particles');
+    if (!host) return;
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var pageH  = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
+    host.style.height = pageH + 'px';
+
+    var count = reduce ? 30 : 70;
+    var frag  = document.createDocumentFragment();
+
+    for (var i = 0; i < count; i++) {
+      var p = document.createElement('span');
+      p.className = 'particle';
+      var size    = (Math.random() * 2.5 + 1.2).toFixed(2);        // 1.2 – 3.7 px
+      var left    = (Math.random() * 100).toFixed(2);              // 0 – 100 %
+      var top     = (Math.random() * 100).toFixed(2);              // 0 – 100 %
+      var dur     = (Math.random() * 16 + 14).toFixed(2);          // 14 – 30 s
+      var delay   = (Math.random() * -30).toFixed(2);              // offset negativo p/ não ligar juntas
+      var drift   = (Math.random() * 80 - 40).toFixed(1) + 'px';   // deriva lateral
+      var op      = (Math.random() * 0.25 + 0.15).toFixed(2);      // 0.15 – 0.40
+      p.style.cssText =
+        'left:' + left + '%;' +
+        'top:'  + top  + '%;' +
+        'width:' + size + 'px;' +
+        'height:' + size + 'px;' +
+        'animation-duration:' + dur + 's;' +
+        'animation-delay:' + delay + 's;' +
+        '--p-x:' + drift + ';' +
+        '--p-op:' + op + ';';
+      frag.appendChild(p);
+    }
+    host.appendChild(frag);
+
+    /* recalcula altura quando o layout muda (fontes, imagens, resize) */
+    var resizeTimer;
+    window.addEventListener('resize', function(){
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(function(){
+        var h = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
+        host.style.height = h + 'px';
+      }, 150);
+    });
+  })();
+</script>
+
+<script>
+  /* ── COUNTDOWN até meia-noite ── */
+  (function() {
+    function updateCountdown() {
+      var now = new Date();
+      var midnight = new Date(now);
+      midnight.setHours(24, 0, 0, 0);
+      var diff = midnight - now;
+      var h = Math.floor(diff / 3600000);
+      var m = Math.floor((diff % 3600000) / 60000);
+      var s = Math.floor((diff % 60000) / 1000);
+      var pad = function(n) { return String(n).padStart(2, '0'); };
+      var el = document.getElementById('countdown-timer');
+      if (el) el.textContent = pad(h) + ':' + pad(m) + ':' + pad(s);
+    }
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+  })();
+
+  /* ── CHAT ANIMADO no bônus ── */
+  (function () {
+    var track = document.getElementById('bonus-chat');
+    if (!track) return;
+
+    var CONV = [
+      { type: 'typing-client',                                                                            wait: 900  },
+      { type: 'client',  name: 'Você',    text: 'olá, quero o livro "O Caibalion" por favor',          wait: 900  },
+      { type: 'typing',                                                                                   wait: 1200 },
+      { type: 'support', name: 'Suporte', text: '✅ Livro adicionado à sua biblioteca!',                 wait: 1400 },
+      { type: 'typing-client',                                                                            wait: 900  },
+      { type: 'client',  name: 'Você',    text: 'oi, adicione "O Livro dos Médiuns" de Allan Kardec',   wait: 900  },
+      { type: 'typing',                                                                                   wait: 1200 },
+      { type: 'support', name: 'Suporte', text: '✅ O Livro dos Médiuns foi adicionado!',                wait: 2800 },
+    ];
+
+    var MAX = 2;      /* máximo de mensagens visíveis ao mesmo tempo */
+    var typingEl = null;
+    var msgs = [];    /* referências às mensagens reais (sem typing) */
+
+    function makeEl(step) {
+      var isTypingClient = step.type === 'typing-client';
+      var isTypingSupport = step.type === 'typing';
+      var side = (step.type === 'client' || isTypingClient) ? 'client' : 'support';
+      var wrap = document.createElement('div');
+      wrap.className = 'chat-msg chat-msg--' + side;
+      if (step.name) {
+        var n = document.createElement('p');
+        n.className = 'chat-name';
+        n.textContent = step.name;
+        wrap.appendChild(n);
+      }
+      var b = document.createElement('div');
+      if (isTypingClient || isTypingSupport) {
+        b.className = 'chat-bubble chat-typing';
+        b.innerHTML = '<span></span><span></span><span></span>';
+      } else {
+        b.className = 'chat-bubble';
+        b.textContent = step.text;
+      }
+      wrap.appendChild(b);
+      return wrap;
+    }
+
+    function show(el) {
+      track.appendChild(el);
+      void el.offsetHeight;
+      el.classList.add('in');
+    }
+
+    function removeOldest() {
+      /* remove a mensagem mais antiga com fade suave */
+      var oldest = msgs.shift();
+      if (!oldest) return;
+      oldest.style.transition = 'opacity .35s ease, transform .35s ease';
+      oldest.style.opacity = '0';
+      oldest.style.transform = 'translateY(-8px)';
+      setTimeout(function () {
+        if (oldest.parentNode) oldest.parentNode.removeChild(oldest);
+      }, 360);
+    }
+
+    function removeTyping() {
+      if (typingEl && typingEl.parentNode) {
+        typingEl.parentNode.removeChild(typingEl);
+        typingEl = null;
+      }
+    }
+
+    function step(idx) {
+      var s = CONV[idx % CONV.length];
+
+      if (s.type === 'typing' || s.type === 'typing-client') {
+        typingEl = makeEl(s);
+        show(typingEl);
+      } else {
+        removeTyping();
+        var el = makeEl(s);
+        /* se já tem MAX mensagens visíveis, remove a mais antiga */
+        if (msgs.length >= MAX) removeOldest();
+        show(el);
+        msgs.push(el);
+      }
+
+      setTimeout(function () { step(idx + 1); }, s.wait);
+    }
+
+    setTimeout(function () { step(0); }, 700);
+  })();
+</script>
+
+
+</body></html>
